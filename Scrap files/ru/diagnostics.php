@@ -1,0 +1,160 @@
+<?php
+/**
+ * =======================================
+ * ###################################
+ * SWIFT Framework
+ *
+ * @package	SWIFT
+ * @author	Kayako Infotech Ltd.
+ * @copyright	Copyright (c) 2001-2009, Kayako Infotech Ltd.
+ * @license	http://www.kayako.com/license
+ * @link		http://www.kayako.com
+ * @filesource
+ * ###################################
+ * =======================================
+ */
+
+$__LANG = array (
+	// ======= BEGIN v4 LOCALES =======
+	'titlespecifyvalidemail' => 'Неправильный адрес электронной почты',
+	'msgspecifyvalidemail' => 'Пожалуйста, введите адрес электронной почты. Вся переписка об ошибке по этому сообщение будет отправлено на этот адрес.',
+	'send' => 'Отправить',
+	'ddbversion' => 'Версия Базы данных: %s',
+	'ddbtype' => 'Тип Базы данных: %s',
+	'configurationvariables' => 'Переменные конфигурации',
+	'phpmodule' => 'Модуль: <b>%s</b>',
+	'killsessions' => 'Удалить Сессии',
+	'titlekillsession' => 'Удалена "%d" Сессия(и)',
+	'msgkillsession' => 'Следующие сессии успешно удалены.',
+	'wineditcache' => 'Изменить кэш: %s',
+	'titlebugreportdispatched' => 'Сообщение об ошибке Отправляется',
+	'msgbugreportdispatched' => SWIFT_PRODUCT . ' направлено сообщение об ошибке на Кэяко. Один из представителей Кэяко свяжемся с вами как можно скорее.',
+	'rebuildcache' => 'Перестроить кэш',
+	'licunlimited' => '- Неограниченный - ',
+	'tabrebuildcache' => 'Перестроить кэш',
+	'cachename' => 'Имя Кэш',
+	'result' => 'Результат',
+	'failure' => 'Провал',
+	'success' => 'Успешно',
+	'clearedcachedirectory' => 'Кєш Директорий Очищенный',
+	'licorganization' => 'Организация: ' ,
+	'licproductpackage' => 'Пакет: ',
+	'licstaffcount' => 'Сотрудник имеющий разрешение: ',
+	// ======= END v4 LOCALES =======
+
+	// ======= BEGIN v3 IMPORT =======
+	'php_ini_memory_limit' => 'php.ini script RAM allocation limit: %s',
+	'php_uname' => 'Сервер расширил информацию ОS: %s',
+	'swift_language_base_charset' => 'SWIFT Язык базы кодировки: %s',
+	'swift_language_html_charset' => 'SWIFT Язык html кодировки: %s',
+	'swift_language_text_charset' => 'SWIFT Язык текста кодировки: %s',
+	'swift_language_html_encoding' => 'SWIFT Язык html кодировки: %s',
+	'swift_language_text_encoding' => 'SWIFT Язык текста кодировки: %s',
+	'php_installed_modules' => 'Ecnfyjdktys PHP vjlekb  : %s',
+	'disk_free_space' => 'Текущая серверная свободная память yf lbcrt: %s bp %s байтов',
+	'php_ini_max_execution_time' => 'PHP INI Макс Время запуска: %s',
+	'php_ini_display_errors' => 'PHP Ошибка отображения: %s',
+	'php_ini_quiet_eval' => 'PHP Тихий Метод Оценки: %s',
+	'php_ini_error_reporting' => 'PHP Сообщения об ошибках уровня: %s',
+	'php_ini_output_buffering' => 'PHP Буферизации вывода: %s',
+	'zend_version' => 'Версия Zend: %s',
+	'php_ini_register_globals' => 'Зарегистрируйте глобальные Переменные: %s',
+	'php_ini_magic_quotes_gpc' => 'Волшебные цитат GPC: %s',
+	'php_ini_magic_quotes_runtime' => 'Время выполнения Магических Цитат: %s',
+	'php_ini_post_max_size' => 'Максимальный размер ПОЧТЫ: %s',
+	'php_ini_upload_max_size' => 'Максимальный размер загружаемого файла: %s',
+	'php_ini_allow_calltime_pass_reference' => 'PHP позволяет переход ссылкой во время вызова: %s',
+	'php_ini_allow_url_fopen' => 'PHP позволяет URL fopen(): %s',
+	'php_ini_always_populate_raw_post_data' => 'Заполнить ПОЧТУ  исходнымы данными: %s',
+	'php_ini_default_charset' => 'Набор серверного типового характера: %s',
+	'php_ini_default_mimetype' => 'Серверный тип MIME по умолчанию: %s',
+	'php_ini_display_startup_errors' => 'PHP показывает ошибки запуска: %s',
+	'php_ini_expose_php' => 'PHP выставлен: %s',
+	'php_ini_ignore_repeated_errors' => 'PHP игнорирует повтор ошибок: %s',
+	'php_ini_max_input_time' => 'INI Максимальное выходное время: %s',
+	'php_ini_output_handler' => 'Глобальный обработчик выхода: %s',
+	'php_ini_report_zend_debug' => 'Отчет Зенд об отладке вызовов: %s',
+	'php_ini_safe_mode' => 'PHP в безопасном режиме: %s',
+	'php_ini_bug_compat_42' => 'INI Режим совместимости 42: %s',
+	'php_ini_bug_compat_warn' => 'Предупреждать о INI режимов совместимости: %s',
+	'php_ini_track_errors' => 'PHP ошибки треков : %s',
+	'php_ini_upload_max_filesize' => 'Максимальный размер загружаемого файла: %s',
+	'php_ini_zend_1_compatibility_mode' => 'Режим совместимости Зенд 1: %s',
+	'php_rusage' => 'RUsage: %s',
+	'licfullname' => 'Зарегистрированное Имя: ',
+	// ======= END v3 IMPORT =======
+	'diagnostics' => 'Диагностика',
+	'phpinfo' => 'PHP информация',
+	'desc_phpinfo' => 'Подробности конфигурации PHP вашего сервера перечисленные ниже. Для получения дополнительной информации на функцию визита  phpinfo ()  <a href="http://www.php.net/phpinfo" target="_blank">http://www.php.net/phpinfo</a>.',
+	'mysqlinfo' => 'MySQL информация',
+	'desc_mysqlinfo' => 'Подробности конфигурации MySQL вашего сервера перечисленные ниже. Значения этих переменных, указанны файле в my.cnf, который обычно находится <i>etc</i> каталоге.',
+	'variable' => 'Переменный',
+	'value' => 'Значение',
+	'cachetitle' => 'Название Кэша',
+	'cacheinfo' => 'Информация Кэша',
+	'desc_cacheinfo' => 'Часто та информация и данные находятся в кэше, уменьшая требования для запуска повторяющихся запросов к базе данных.',
+
+	// Report Bug
+	'reportbug' => 'Сообщить об ошибке',
+	'desc_reportbug' => 'Вы можете сообщить об ошибке команде Кэяко путем предоставления краткого описания вопроса ниже. Рекомендуется, чтобы вы держали информацию отладочной, так как она помогает нам отслеживать проблемы быстрее. Пожалуйста, убедитесь, что адрес электронной почты указан правильно.',
+	'bugdetails' => 'Отчет об ошибке',
+	'submitbug' => 'Сообщить об ошибке',
+	'bugsubject' => 'Тема',
+	'desc_bugsubject' => 'Введите тему отчета об ошибке.',
+	'bugfromname' => 'Полное Имя',
+	'desc_bugfromname' => 'Введите свое имя или имя сотрудника, с которым можно будет связаться в вашей организации.',
+	'bugfromemail' => 'Адрес электронной почты',
+	'desc_bugfromemail' => 'Это адрес, который используется в качестве <b>от</b> адреса для доклада направлены для Кэяко. Пожалуйста, убедитесь, что это действительный адрес электронной почты.',
+	'debuginfo' => '### Сделайте отладку Информации ###',
+	'dphpversion' => 'PHP Версия: %s',
+	'dphpuploadsize' => 'Макс размер загружаемого файла: %s',
+	'dphpsafemode' => 'Безопасный режим: %s',
+	'dswifturl' => 'Установка URL: %s',
+	'dswiftproduct' => 'Продукт: %s',
+	'dswiftversion' => 'Версия: %s',
+	'dswiftbuilddate' => 'Дата создания: %s',
+	'dswiftbuildtype' => 'Завершенность: %s',
+	'dmysqlversion' => 'MySQL Версия: %s',
+	'duseragent' => 'Пользователь агента: %s',
+	'dserversoftware' => 'Серверное программное обеспечение: %s',
+	'dos' => 'Операционная система: %s',
+	'specifyvalidemail' => 'ОШИБКА: Пожалуйста, укажите действительный адрес электронной почты',
+	'bugreportdispatched' => 'Сообщение об ошибке отправляется на bugs@kayako.com',
+
+	// License Information
+	'licenseinfo' => 'Информация о лицензии',
+	'desc_licenseinfo' => '',
+	'liccreated' => 'Создано: ',
+	'licnever' => '-- Никогда --',
+	'licexpiry' => 'Дата истечения срока: ',
+	'licuniqueid' => 'Уникальный ID: ',
+	'licproduct' => 'Продукт: ',
+	'licdomains' => 'Зарегистрированные домены',
+	'licdomform' => 'Домен #%s',
+
+	// Active Sessions
+	'activesessions' => 'Active Sessions',
+	'desc_activesessions' => '',
+	'sess' . SWIFT_Interface::INTERFACE_API => 'API',
+	'sess' . SWIFT_Interface::INTERFACE_STAFF => 'Сотрудник',
+	'sess' . SWIFT_Interface::INTERFACE_ADMIN => 'Админ',
+	'sess' . SWIFT_Interface::INTERFACE_CLIENT => 'Клиент',
+	'sess' . SWIFT_Interface::INTERFACE_WINAPP => 'Winapp',
+	'sess' . SWIFT_Interface::INTERFACE_CONSOLE => 'Консоль',
+	'sess' . SWIFT_Interface::INTERFACE_VISITOR => 'Посетитель',
+	'sess' . SWIFT_Interface::INTERFACE_CHAT => 'Чат',
+	'sess' . SWIFT_Interface::INTERFACE_ARCHIVE => 'Архив',
+	'sess' . SWIFT_Interface::INTERFACE_PDA => 'PDA',
+	'sess' . SWIFT_Interface::INTERFACE_RSS => 'RSS',
+	'sess' . SWIFT_Interface::INTERFACE_SYNCWORKS => 'SyncWorks',
+	'sessionlist' => 'Список Сессий',
+	'ipaddress' => 'IP Адресс',
+	'lastactivity' => 'Последняя активность',
+	'sessiontype' => 'Тип Сессии',
+	'useragent' => 'Агент пользователя',
+	'killsession' => 'Удалить Сессию',
+	'sessiondelconfirm' => 'Сессия успешно удалена',
+	'sess' . SWIFT_Interface::INTERFACE_INSTAALERT => 'InstaAlert',
+);
+
+?>
