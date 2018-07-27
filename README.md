@@ -1,3 +1,4 @@
+'''
 Here goes the
 
  m    m               mmmmm  m    m #
@@ -8,7 +9,7 @@ Here goes the
                 m"
                ""
 				Kayako Fusion RU Language Pack
-				
+'''			
 
 Based on community translations, scrap files and my work.
 NOTE: You can have official translations here - 
