@@ -5,62 +5,62 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
-$__LANG = array (
-	'parentdepartment' => 'Parent department',
-	'desc_parentdepartment' => 'This department can be placed under another, parent department. To keep things simple, this is only recommended if you maintain a lot of departments.',
-	'naparentdep' => '-- Select Department --',
-	'titledepmodmismatch' => 'Wrong type of parent department',
-	'msgdepmodmismatch' => 'The parent department\'s channel %s (%s) does not match the channel selected (%s) for this department. You can only link departments of the same channel.',
-	'tabassignments' => 'Staff Assignments',
-	'tabpermissionsclient' => 'Permissions: Users',
-	'tabpermissionsstaff' => 'Permissions: Staff',
-	'tablanguages' => 'Languages: Translation',
-	'staffassigndep' => 'Assigned Staff',
-	'groupassigndep' => 'Assigned Teams',
-	'uservisibilitycustom' => 'Restrict department to specific user groups',
-	'desc_uservisibilitycustom' =>  'If enabled, only the user groups selected below will be able to see and select this department (when submitting tickets or requesting a live chat).',
-	'usergroups' => 'User Groups',
-	'assignedteams' => 'Staff Team Assignments',
-	'assignedstaff' => 'Individual Staff Assignments',
-	'deldepartmentstitle' => 'Departments deleted (%d)',
-	'deldepartmentsmsg' => 'The following departments were deleted: <BR />',
-	'deporder' => 'Order',
+$__LANG = array(
+	'parentdepartment'          => 'Родительский департамент',
+	'desc_parentdepartment'     => 'Выберите родительский департамент. Когда выбран департамент, устанавливается связь текущего департамента с выбранным департаментом, и текущий департамент становится поддепартаментом в центре поддержки клиентов и в интерфейсе для персонала.',
+	'naparentdep'               => '-- Выберите департамент --',
+	'titledepmodmismatch'       => 'Несовпадение модуля родительского департамента',
+	'msgdepmodmismatch'         => 'Модуль департамента, указанного как родительский департамент %s (%s), не совпадает с выбранным приложением (%s)',
+	'tabassignments'            => 'Назначенные сотрудники и команды',
+	'tabpermissionsclient'      => 'Доступ: Пользователи',
+	'tabpermissionsstaff'       => 'Доступ: Персонал',
+	'tablanguages'              => 'Языки: Перевод',
+	'staffassigndep'            => 'Назначенные сотрудники',
+	'groupassigndep'            => 'Назначенные команды',
+	'uservisibilitycustom'      => 'Ограничить права доступа для некоторых групп пользователей?',
+	'desc_uservisibilitycustom' => 'Если эта опция включена, данный департамент будет виден только указанным группам пользователей в центре поддержки клиентов.',
+	'usergroups'                => 'Группы пользователей',
+	'assignedteams'             => 'Назначенные: команды',
+	'assignedstaff'             => 'Назначенные: сотрудники',
+	'deldepartmentstitle'       => 'Удалено департаментов "%d"',
+	'deldepartmentsmsg'         => 'Следующие департаменты были удалены из базы данных: <BR />',
+	'deporder'                  => 'Порядок',
 
-	'displayorder' => 'Display order',
-	'desc_displayorder' => 'Departments are displayed according to their display order number, smallest to largest.',
-	'departments' => 'Departments',
-	'desc_departments' => '',
-	'insertdepartment' => 'Insert Department',
-	'deptitle' => 'Department name',
-	'desc_deptitle' => 'For example, <em>Support</em> or <em>Sales</em>.',
-	'deptype' => 'Type',
-	'desc_deptype' => '<strong>Public</strong> Departments are available everywhere.<br /><strong>Private</strong> Departments are only available to staff users.',
-	'depapp' => 'Channel',
-	'departmentapp' => 'Channel',
-	'desc_departmentapp' => 'A department is either a <strong>ticket</strong> department or a <strong>live support</strong> department.',
-	'templategroup' => 'Restrict to specific template groups',
-	'desc_templategroup' => 'Departments can be restricted to specific template groups.',
-	'invaliddepartment' => 'A problem was encountered (invalid department specified)',
-	'tabedit' => 'Edit',
-	'tabinsert' => 'Insert',
-	'wineditdep' => 'Edit Department',
-	'rtitleinsert' => 'Department %s created',
-	'rdescinsert' => 'The department %s was created successfully.',
-	'rtitleupdate' => 'Department %s updated',
-	'rdescupdate' => 'The department %s was updated successfully.',
-	'accessoverview' => 'Access Overview',
-	'tabaccessoverview' => 'Access Overview',
-	
+	'displayorder'              => 'Порядок отображения',
+	'desc_displayorder'         => 'Это порядок отображения департаментов на панели управления персонала и в центре поддержки клиентов. Департаменты сортируются в порядке (возрастания), который указан здесь.',
+	'departments'               => 'Департаменты',
+	'desc_departments'          => '',
+	'insertdepartment'          => 'Добавить департамент',
+	'deptitle'                  => 'Название',
+	'desc_deptitle'             => 'Укажите название департамента. Допускается создавать множество департаментов с одинаковым названием.',
+	'deptype'                   => 'Тип',
+	'desc_deptype'              => 'Укажите тип департамента. Приватные департаменты не видны пользователям в центре поддержки клиентов.',
+	'depapp'                    => 'Модуль',
+	'departmentapp'             => 'Модуль',
+	'desc_departmentapp'        => 'Департамент может быть или <i>заявкой</i>, или <i>чатом онлайн</i>.',
+	'templategroup'             => 'Группа шаблонов',
+	'desc_templategroup'        => 'Выберите группы шаблонов, на которые назначен данный департамент. Для того, чтобы выбрать несколько групп, удерживайте клавишу CTRL.',
+	'invaliddepartment'         => 'Указан неверный департамент',
+	'tabedit'                   => 'Редактировать',
+	'tabinsert'                 => 'Добавить',
+	'wineditdep'                => 'Редактировать департамент',
+	'rtitleinsert'              => 'Добавлен департамент "%s"',
+	'rdescinsert'               => 'Kayako успешно добавил департамент "%s".',
+	'rtitleupdate'              => 'Обновлен департамент "%s"',
+	'rdescupdate'               => '"%s" департамент был успешно обновлен.',
+	'accessoverview'            => 'Доступ',
+	'tabaccessoverview'         => 'Доступ',
+
 	// Potentialy unused phrases in departments.php
 	'desc_staffassigndep' => 'Please select the staff users assigned to this department.',
 	'desc_groupassigndep' => 'Please select the teams assigned to this department.',

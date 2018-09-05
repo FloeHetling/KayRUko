@@ -5,46 +5,46 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 $__LANG = array (
 	// ======= BEGIN v4 LOCALES =======
-	'tabpostindex' => 'Rebuild Search Index',
-	'tabmoveattachments' => 'Move Attachments',
-	'attachmentsperpass' => 'Number of attachments to process in a batch',
-	'desc_attachmentsperpass' => 'Kayako will work through the attachments one batch at a time. A higher number requires a more powerful server.',
-	'move' => 'Move',
-	'dbtofiles' => 'From database (%d) into file system',
-	'filestodb' => 'From file system (%d) into database',
-	'movetype' => 'Move attachments from',
-	'desc_movetype' => 'Select where you wish to move your attachments. If you are a Kayako Download customer and manage your own web server, you may need to increase your max_packet_size if moving files from the file system to the database.',
-	'attachmentsprocessed' => 'Attachments moved',
-	'totalattachments' => 'Total attachments',
-	'tabproperties'=> 'Rebuild Properties',
-	'ticketsperpass' => 'Batch size',
-	'desc_ticketsperpass' => 'Enter the number of tickets to process in a single batch (default = 100). You may wish to increase this number to complete the reindexing quicker, or you may wish to lower it to reduce the demand on your server.',
+	'tabpostindex'            => 'Восстановить индекс поиска',
+	'tabmoveattachments'      => 'Переместить вложения',
+	'attachmentsperpass'      => 'Допустимое количество вложений для одной страницы',
+	'desc_attachmentsperpass' => 'Укажите количество вложений, которые можно прикрепить к одной странице. Kayako поочередно выполнит перебор всех вложений каждой страницы, затем перейдет на загруженные вложения. Чем больше вложений, тем мощнее должен быть сервер. Если система выдает ошибку во время процесса, используйте меньшее количество вложений.',
+	'move'                    => 'Переместить',
+	'dbtofiles'               => 'База данных (%d) => Файлы',
+	'filestodb'               => 'Файлы (%d) => База данных',
+	'movetype'                => 'Переместить вложения из',
+	'desc_movetype'           => 'Выберите способ перемещения вложений. Если Вы хотите переместить вложения из файлов в базу данных, рекомендуется вначале проверить настройки максимального размера пакетов в вашей базе данных, чтобы избежать повреждений или потери данных.',
+	'attachmentsprocessed'    => 'Перемещенные вложения',
+	'totalattachments'        => 'Все вложения',
+	'tabproperties'           => 'Восстановить параметры',
+	'ticketsperpass'          => 'Размер пакета',
+	'desc_ticketsperpass'     => 'Укажите количество заявок для обработки в одном пакете <i>(по умолчанию = 100).</i><br/><br/>В связи с ограничениями использования памяти и процессора не рекомендуется указывать значение больше чем сто (100).<br/><br/><font color="cc3300">Примечание: Во время обработки пакета, счетчик затраченного времени <i>не</i> будет обновляться, но процесс будет все равно происходить!',
 	// ======= END v4 LOCALES =======
-	'tickets' => 'Tickets',
-	'maintenance' => 'Maintenance',
-	'rebuildpindex' => 'Rebuild Post Index',
-	'indexseterror' => 'Note: The default search mode is set to full text. To use the inbuilt search engine, change the <strong>Search Type</strong> setting under <em>Settings > Tickets</em>.',
-	'rebuild' => 'Rebuild',
-	'postperpass' => 'Ticket replies to process in a batch',
-	'desc_postperpass' => 'Enter the number of ticket replies to process in a single batch (default = 100). You may wish to increase this number to complete the reindexing quicker, or you may wish to lower it to reduce the demand on your server.',
-	'reindexheader' => '<strong>Ticket post indexing progress</strong>',
-	'totalposts' => 'Total ticket replies:',
-	'totaltickets' => 'Total tickets:',
-	'postsprocesed' => 'Replies processed:',
-	'ticketsprocessed' => 'Tickets processed:',
-	'timeelapsed' => 'Time elapsed:',
-	'timeremaining' => 'Estimated time remaining:',
+	'tickets'                 => 'Заявки',
+	'maintenance'             => 'Управление',
+	'rebuildpindex'           => 'Восстановить индекс',
+	'indexseterror'           => 'Примечание: режим поиска по умолчанию применен ко всему тексту. Для того, чтобы использовать встроенный механизм поиска, измените настройки <b>типа поиска</b>: <i>Настройки> Заявки</i>.',
+	'rebuild'                 => 'Восстановить',
+	'postperpass'             => 'Размер пакета',
+	'desc_postperpass'        => 'Введите количество ответов на заявки для обработки в одном пакете <i>(по умолчанию = 100).</i><br/><br/>В связи с ограничениями использования памяти и процессора, не рекомендуется указывать значение больше чем сто (100).<br/><br/><font color="cc3300">Примечание: Во время обработки пакета, счетчик затраченного времени <i>не</i> будет обновляться, но процесс будет все равно происходить!</font>',
+	'reindexheader'           => '<b>Процесс переиндексации</b>',
+	'totalposts'              => 'Общее # ответов в базе данных:',
+	'totaltickets'            => 'Общее # заявок в базе данных:',
+	'postsprocesed'           => '# обработанных ответов:',
+	'ticketsprocessed'        => '# обработанных заявок:',
+	'timeelapsed'             => 'Затраченное время:',
+	'timeremaining'           => 'Оставшееся время (приблизительно):',
 );
 ?>

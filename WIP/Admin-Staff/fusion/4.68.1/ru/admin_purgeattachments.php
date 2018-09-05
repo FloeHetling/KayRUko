@@ -5,51 +5,51 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
-$__LANG = array (
-	'purgeattachments' => 'Purge Attachments',
+$__LANG = array(
+	'purgeattachments'      => 'Очистка вложений',
 	'desc_purgeattachments' => '',
-	'tabgeneral' => 'General',
-	'insertcriteria' => 'Insert Criteria',
-	'lookup' => 'Lookup',
-	'matchtype' => 'Criteria matching type',
-	'desc_matchtype' => 'How search will handle the criteria below.',
-	'smatchall' => 'Match all criteria (AND)',
-	'smatchany' => 'Match any of the criteria (OR)',
-	'checkuncheckall' => 'Check/Uncheck All',
-	'titlenocriteria' => 'No criteria specified',
-	'msgnocriteria' => 'You need to specify at least one criteria to find attachments.',
-	'if' => 'If',
-	'titlesearchresult' => 'Found %d attachments',
-	'msgsearchresult' => 'Search found %d attachments based on the following criteria:',
-	'and' => 'AND',
-	'or' => 'OR',
-	'filename' => 'File name',
-	'attachmentid' => 'Attachment ID',
-	'ticketid' => 'Ticket ID',
-	'filesize' => 'File size',
-	'back' => 'Back',
-	'titledelconfirm' => 'Deleted "%d" Attachments',
-	'msgdelconfirm' => 'Successfully deleted the following attachments from the database:',
-	'criteria' => 'Criteria:',
+	'tabgeneral'            => 'Общие',
+	'insertcriteria'        => 'Добавить критерий',
+	'lookup'                => 'Поиск',
+	'matchtype'             => 'Настройка критериев',
+	'desc_matchtype'        => 'Выберите метод группирования критериев.',
+	'smatchall'             => 'Совпадение по всем (и)',
+	'smatchany'             => 'Совпадения по любому (или)',
+	'checkuncheckall'       => 'Выделить все/снять выделение со всех',
+	'titlenocriteria'       => 'Критерии не были заданы',
+	'msgnocriteria'         => 'Необходимо указать как минимум один критерий для поиска вложений.',
+	'if'                    => 'Если',
+	'titlesearchresult'     => '"%d" вложений найдено',
+	'msgsearchresult'       => 'Поиск выдал "%d" результатов по следующим критериям:',
+	'and'                   => 'И',
+	'or'                    => 'ИЛИ',
+	'filename'              => 'Имя файла',
+	'attachmentid'          => 'Идентификатор вложения',
+	'ticketid'              => 'Идентификатор телефона',
+	'filesize'              => 'Размер файла',
+	'back'                  => 'Назад',
+	'titledelconfirm'       => 'Удалено "%d" вложений',
+	'msgdelconfirm'         => 'Следующие вложения были успешно удалены из базы данных:',
+	'criteria'              => 'Критерии:',
 
 	// Criteria
-	'pafilename' => 'File name',
-	'desc_pafilename' => 'Search attachment file names.',
-	'pasize' => 'File size',
-	'desc_pasize' => 'Search for attachments of a particular size (in kilobytes).',
-	'padateline' => 'Creation date',
-	'desc_padateline' => 'Search for attachments created within a certain date.',
-	'paticketid' => 'Ticket ID',
-	'desc_paticketid' =>'Enter a specific ticket ID to lookup its attachments.',
+	'pafilename'            => 'Имя файла',
+	'desc_pafilename'       => 'Укажите имя файла',
+	'pasize'                => 'Размер файла',
+	'desc_pasize'           => 'Укажите размер файла вложения в килобайтах',
+	'padateline'            => 'Дата создания',
+	'desc_padateline'       => 'Укажите срок создания',
+	'paticketid'            => 'Идентификатор заявки',
+	'desc_paticketid'       => 'Введите идентификатор заявки для поиска вложений',
 );
 ?>

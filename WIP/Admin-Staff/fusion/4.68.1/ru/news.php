@@ -5,99 +5,99 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
-$__LANG = array (
-	'news' => 'News',
-	'managenews' => 'Manage News',
-	'managesubscribers' => 'Manage Subscribers',
-	'insertnews' => 'Insert News',
-	'importexport' => 'Import/Export',
+$__LANG = array(
+	'news'                 => 'Новости',
+	'managenews'           => 'Управление новостями',
+	'managesubscribers'    => 'Управление подписчиками',
+	'insertnews'           => 'Добавить новость',
+	'importexport'         => 'Импорт/экспорт',
 
 	// Manage Subscribers
-	'subscribers' => 'Subscribers',
-	'dlsubscriberconfirm' => 'Subscriber deleted',
-	'subemail' => 'Email address',
-	'desc_subemail' => 'Enter the email address of the subscriber.',
-	'substatus' => 'Validation Status',
-	'subdate' => 'Date',
-	'sublist' => 'Subscriber List',
-	'legend' => 'Legend: ',
-	'subinsertconfirm' => '%s has been registered',
+	'subscribers'          => 'Подписчики',
+	'dlsubscriberconfirm'  => 'Подписчик успешно удален',
+	'subemail'             => 'Email адрес',
+	'desc_subemail'        => 'Укажите email адрес подписчика.',
+	'substatus'            => 'Статус валидации',
+	'subdate'              => 'Дата',
+	'sublist'              => 'Список подписчиков',
+	'legend'               => 'Легенда: ',
+	'subinsertconfirm'     => 'Подписчик на новости "%s" успешно добавлен',
 
 	// Insert Subscriber
-	'insertsubscriber' => 'Insert Subscriber',
+	'insertsubscriber'     => 'Добавить подписчика',
 
 	// Edit Subscriber
-	'invalidsubscriber' => 'Invalid subscriber',
-	'editsubscriber' => 'Edit Subscriber',
-	'subscriberdetails' => 'Subscriber Details',
-	'subupdateconfirm' => 'Subscriber %s updated',
+	'invalidsubscriber'    => 'Неверный подписчик',
+	'editsubscriber'       => 'Редактировать подписчика',
+	'subscriberdetails'    => 'Информация о подписчике',
+	'subupdateconfirm'     => 'Подписчик на новости "%s" успешно обновлен',
 
 	// Manage News
-	'newssubject' => 'News Subject',
-	'newsdescription' => 'Description',
-	'desc_newsdescription' => 'Enter a brief description of the news item. This field is limited to <strong>255</strong> characters.',
-	'newscontents' => 'Contents',
-	'newstype' => 'News Type',
-	'desc_newstype' => '<strong>Public</strong> Will only be published to the customer-facing support center.<br /><strong>Private</strong> Will only be published to the staff control panel and not to your end users.',
-	'newsexpiry' => 'Expiration',
-	'newsformexpiry' => 'Expiration (Optional)',
-	'desc_newsformexpiry' => 'Once the expiration date has passed, the article item will no longer displayed (but can be reactivated at any time).',
-	'manage' => 'Manage',
-	'publicnews' => 'Public News',
-	'privatenews' => 'Private News',
-	'newsdelconfirm' => 'News article deleted',
+	'newssubject'          => 'Тема новости',
+	'newsdescription'      => 'Описание',
+	'desc_newsdescription' => 'Укажите краткое описание новости. Максимальное количество допустимых символов: <b>255</b>.',
+	'newscontents'         => 'Содержание',
+	'newstype'             => 'Тип новости',
+	'desc_newstype'        => '<i>Публичный:</i> Новости этого типа доступны персоналу и пользователям в центре поддержки.<br><br><i>Приватный:</i> Новости этого типа доступны только сотрудникам на панели управления персонала.',
+	'newsexpiry'           => 'Дата истечения срока',
+	'newsformexpiry'       => 'Дата истечения срока (не обязательно)',
+	'desc_newsformexpiry'  => 'По истечению срока новость перестает отображаться. Тем не менее, новость не удаляется и может быть в любой момент восстановлена.',
+	'manage'               => 'Управление',
+	'publicnews'           => 'Публичные новости',
+	'privatenews'          => 'Приватные новости',
+	'newsdelconfirm'       => 'Новость успешно удалена',
 
 	// Insert News
-	'contents' => 'Contents',
-	'newsdetails' => 'News Details',
-	'newsoptions' => 'News Options',
-	'sendemail' => 'Send email to subscribers',
-	'desc_sendemail' => 'Should the news article be sent in an email to all subscribers?',
-	'emailsubject' => 'Custom Email Subject',
-	'desc_emailsubject' => 'If a subject is not specified here, the title of the news article will be used instead.',
-	'newstgroup' => 'Template Group',
-	'desc_newstgroup' => 'The template groups under which the news item will be published.',
-	'newsinsertconfirm' => 'News article (%s) created successfully',
-	'unsubscribe' => 'Unsubscribe: ',
-	'clickhere' => 'Click Here',
-	'fromname' => 'From name',
-	'desc_fromname' => 'The <em>From Name</em> to be used for the emails sent out to subscribers, if enabled.',
-	'fromemail' => 'From email address',
-	'desc_fromemail' => 'The <em>From Email</em> to be used for the emails sent out to subscribers, if enabled.',
-	'updateprefix' => 'UPDATE: ',
+	'contents'             => 'Содержание',
+	'newsdetails'          => 'Информация о новости',
+	'newsoptions'          => 'Параметры новости',
+	'sendemail'            => 'Отправить Email',
+	'desc_sendemail'       => 'Отправить новость всем подписчикам?',
+	'emailsubject'         => 'Тема Email',
+	'desc_emailsubject'    => 'Если тема не указана, будет использована тема новости.',
+	'newstgroup'           => 'Группа шаблонов',
+	'desc_newstgroup'      => 'Группа шаблонов, в которой будет отображаться новость.',
+	'newsinsertconfirm'    => 'Новость "%s" успешно добавлена',
+	'unsubscribe'          => 'Отказаться от подписки: ',
+	'clickhere'            => 'Кликните здесь',
+	'fromname'             => 'Имя отправителя',
+	'desc_fromname'        => 'Это заголовок email сообщения <i>имя отправителя<i>, который будет использоваться для отправленных подписчикам сообщений email.',
+	'fromemail'            => 'Email адрес отправителя',
+	'desc_fromemail'       => 'Это <i>Email адрес отправителя<i>, который будет использоваться для отправленных подписчикам сообщений email. Обратите внимание, что это может быть адрес, на который пользователи будут отвечать (если они отвечают на сообщения email с новостями).',
+	'updateprefix'         => 'ОБНОВИТЬ: ',
 
 	// Edit News
-	'updatenews' => 'Update News',
-	'invalidnewsitem' => 'Invalid news articles',
-	'newsupdateconfirm' => 'News article (%s) updated successfully',
-	'exportpdf' => 'Export PDF',
-	'deletenews' => 'Delete News',
-	'newsoptions' => 'News Options',
-	'nwpostedby' => 'Posted by ',
-	'nwpostedon' => ' on ',
-	'nwread' => 'Read',
+	'updatenews'           => 'Обновить новость',
+	'invalidnewsitem'      => 'Неверная новость',
+	'newsupdateconfirm'    => 'Новость "%s" успешно обновлена',
+	'exportpdf'            => 'Экспортировать PDF',
+	'deletenews'           => 'Удалить новость',
+	'newsoptions'          => 'Параметры новости',
+	'nwpostedby'           => 'Отправлено ',
+	'nwpostedon'           => '  ',
+	'nwread'               => 'Прочитано',
 
 	// Comments
-	'comments' => 'Comments',
-	
+	'comments'             => 'Комментарии',
+
 	// Potentialy unused phrases in news.php
-	'subisvalidated' => 'Is Validated?',
-	'desc_subisvalidated' => 'If set to <i>No</i>, the provided email address will be sent an activation link.',
-	'validated' => 'Validated',
-	'notvalidated' => 'Not Validated',
-	'exportfilename' => 'File name',
-	'desc_exportfilename' => 'Enter the filename for the export of data.',
-	'export' => 'Export',
+	'subisvalidated'       => 'Is Validated?',
+	'desc_subisvalidated'  => 'If set to <i>No</i>, the provided email address will be sent an activation link.',
+	'validated'            => 'Validated',
+	'notvalidated'         => 'Not Validated',
+	'exportfilename'       => 'File name',
+	'desc_exportfilename'  => 'Enter the filename for the export of data.',
+	'export'               => 'Export',
 	'exportsubscriberdata' => 'Export Subscriber Data',
 	'importsubscribers' => 'Import Subscribers',
 	'import' => 'Import',

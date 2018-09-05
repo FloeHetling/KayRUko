@@ -5,12 +5,12 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
@@ -18,65 +18,64 @@
 
 $__LANG = array (
 	// ======= BEGIN v4 LOCALES =======
-	'mpsettings' => 'Settings',
-	'desc_mpsettings' => '',
-	'tabsettings' => 'Settings',
-	'mailparser' => 'Email Parser',
-	
+	'mpsettings'             => 'Настройки',
+	'desc_mpsettings'        => '',
+	'tabsettings'            => 'Настройки',
+	'mailparser'             => 'Парсер почты',
 
 
-	'titleinsertban' => 'Email address banned',
-	'msginsertban' => 'The email address %s was banned and the email parser will no longer process email from this address.',
-	'titleupdateban' => 'Email address ban updated',
-	'msgupdateban' => 'The email address ban for %s was updated successfully.',
-	'wineditban' => 'Edit Parser Ban',
-	'titledelbans' => 'Email address bans lifted (%d)',
-	'msgdelbans' => 'The following email address bans were deleted:',
+	'titleinsertban'         => 'Запрет парсера добавлен',
+	'msginsertban'           => 'Запрет парсера для адреса email "%s" успешно добавлен в базу данных.',
+	'titleupdateban'         => 'Запрет парсера обновлен',
+	'msgupdateban'           => 'Запрет парсера для адреса email "%s" успешно обновлен.',
+	'wineditban'             => 'Редактировать запрет парсера',
+	'titledelbans'           => 'Удалено "%d" запретов парсера',
+	'msgdelbans'             => 'Следующие заблокированные адреса emails уcпешно удалены из базы данных:',
 
 	// Email Bans
-	'emailbans' => 'Email Bans',
-	'emailbanlist' => 'Email Ban List',
-	'bannedemail' => 'Email address',
-	'bannedby' => 'Banned by',
-	'insertban' => 'Insert Ban',
-	'insertnewban' => 'Insert New Ban',
-	'desc_bannedemail' => 'Enter the email address to ban. Any incoming email messages from this address will be ignored by the helpdesk. To ban an entire domain name, enter <em>@thedomainname.com</em>.',
-	'parserbaninsertconfirm' => 'Email ban "%s" inserted successfully',
-	'parserbansdelconfirm' => 'Email ban(s) deleted successfully',
-	'invalidemailban' => 'Invalid email address ban ID specified',
-	'editban' => 'Edit Ban',
-	'bandelconfirmmsg' => 'Are you sure you wish to delete this email ban entry?  This action is irreversible!',
-	'parserbanupdconfirm' => 'Email address ban for %s updated',
-	'desc_mailbans' => 'You can prevent problem users from submitting tickets by adding an email ban for their address.  Whenever Kayako receives an email message, it will check the author\'s address against the ban list, and if the address is banned, the message will be ignored without notice.',
+	'emailbans'              => 'Запреты адресов Email',
+	'emailbanlist'           => 'Список запрещенных Запреты адресов Email',
+	'bannedemail'            => 'Адрес Email',
+	'bannedby'               => 'Запрещено',
+	'insertban'              => 'Добавить запрет',
+	'insertnewban'           => 'Добавить новый запрет',
+	'desc_bannedemail'       => 'Укажить адрес email, который нужно запретить. Все сообщения с этого адреса будут без уведомления отклонены. Для того, чтобы полностью заблокировать имя домена, укажите адрес email как "@domain.com".',
+	'parserbaninsertconfirm' => 'Запрет адреса Email "%s" успешно добавлен',
+	'parserbansdelconfirm'   => 'Запреты адресов Email успешно удалены',
+	'invalidemailban'        => 'Указан неверный ID запрета парсера',
+	'editban'                => 'Редактировать запрет',
+	'bandelconfirmmsg'       => 'Вы уверены, что хотите удалить эту запись о запрете адреса Email?  Последствия этого действия  необратимы!',
+	'parserbanupdconfirm'    => 'Запрет адреса Email "%s" успешно обновлен',
+	'desc_mailbans'          => 'Вы можете лишить проблемных пользователей возможности создавать заявки, добавив запрет на их адреса email.  Всегда, когда Kayako получает email сообщение, адрес его отправителя проверяется на наналичие в списке запрещенных адресов. Если этот адрес запрещен, сообщение будет проигнорировано.',
 
 	// Catch-All Rules
-	'insertcatchallrule' => 'Insert Catch-all Rule',
-	'titlenqcatchall' => 'Configure email queues before creating catch-all rules',
-	'msgnqcatchall' => 'Catch-all rules determine what happens to email coming into the helpdesk. Without any email queues configured, email cannot come into the helpdesk.',
-	'wineditcatchall' => 'Edit Catch-all Rule',
-	'titledelcatchall' => 'Catch-all rules deleted (%d)',
-	'msgdelcatchall' => 'The following catch-all rules were deleted:<br>',
-	'titleupdatecatchall' => 'Catch-all rule updated',
-	'msgupdatecatchall' => 'The catch-all rule (%s) was updated successfully.',
-	'titleinsertcatchall' => 'Catch-all rule created',
-	'msginsertcatchall' => 'The catch-all rule (%s) was created successfully.',
-	'catchallrules' => 'Catch-all Rules',
-	'desc_catchallrules' => 'Catch-all rules use regular expressions to match the addresses of incoming email messages.  The messages can then be routed to whichever email queue you wish. For more information on regular expressions, see <a href="http://www.php.net/preg_match" target="_blank" id="red">preg_match()</a>.',
-	'insertrule' => 'Insert Rule',
-	'insertnewrule' => 'Insert New Rule',
-	'editrule' => 'Edit Rule',
-	'rregexp' => 'Pattern match',
-	'desc_rregexp' => 'Enter a regular expression to match against the sender\'s email address. If it matches, this catch-all rule will trigger. For example:<br /><br /><strong>/^(.*)(\@yourdomain\.com)$/i</strong> Matches any email address that has a domain of yourdomain.com (*@yourdomain.com)<br /><strong>/^(support\@)(.*)$/i</strong> Matches support@*',
-	'sortorder' => 'Execution order',
-	'desc_sortorder' => 'Catch-all rules will be executed according to their execution order number, smallest to largest (1 will execute before 5).',
-	'emailqueue' => 'Route to email queue',
-	'desc_emailqueue' => 'Incoming email that is caught by this catch-all rule will be routed to this email queue.',
-	'ruletitle' => 'Rule title',
-	'desc_ruletitle' => 'For example, <em>Rule to catch anything @acme.com</em>.',
-	'noemailqueueadd' => '-- No email queues configured --',
-	'editcatchallrule' => 'Edit Catch-All Rule',
-	'emailqueue' => 'Destination email queue',
-	
+	'insertcatchallrule'     => 'Добавьте общее правило',
+	'titlenqcatchall'        => 'Нет очередей ожидания Email',
+	'msgnqcatchall'          => 'Вы не можете добавить общее правило, пока есть как минимум одна очередь ожидания Email.',
+	'wineditcatchall'        => 'Редактировать общее правило',
+	'titledelcatchall'       => 'Удалено "%d" общих правил',
+	'msgdelcatchall'         => 'Следующие общие правила успешно удалены из базы данных:<br>',
+	'titleupdatecatchall'    => 'Общие правила обновлены',
+	'msgupdatecatchall'      => 'Общее правило "%s" успешно обновлено.',
+	'titleinsertcatchall'    => 'Добавлено общее правило',
+	'msginsertcatchall'      => 'Общее правило "%s" успешно добавлено в базу данных.',
+	'catchallrules'          => 'Общие правила',
+	'desc_catchallrules'     => 'Общие правила используют регулярные выражения для того, чтобы совпадать с шаблонами в адресах входящих сообщений.  Потом эти сообщения можно будет направить в любую необходимую Вам очередь ожидания. Для дополнительной информации о регулярных выражениях, <a href="http://www.php.net/preg_match" target="_blank" id="red">нажмите здесь.</a>',
+	'insertrule'             => 'Добавить правило',
+	'insertnewrule'          => 'Добавить новое правило',
+	'editrule'               => 'Редактировать правило',
+	'rregexp'                => 'Регулярное выражение',
+	'desc_rregexp'           => 'Укажите регулярное выражение для сопоставления с адресом email отправителя. Примеры:<HR /><b>/^.*\\@yourdomain\\.com$/i</b> - сопоставляется с любым адресом email, у которого домен "yourdomain.com"<BR /><BR /><b>/^support\\@.*$/i</b> - сопоставляется с  support@anydomain.com; где anydomain.com может быть конкретным значением',
+	'sortorder'              => 'Порядок выполнения',
+	'desc_sortorder'         => 'Парсер почты будет выполнять общие правила в соответствии с этим значением. (Например, <i>правило "1" выполняется перед правилом "2" и т.п.</i>)',
+	'emailqueue'             => 'Очередь ожидания Email получателя',
+	'desc_emailqueue'        => 'Входящие письма, попадающие под воздействие этого общего правила, будут перенаправлены в указанную здесь очередь ожидания.',
+	'ruletitle'              => 'Название правила',
+	'desc_ruletitle'         => 'Введите название для этого общего правила.',
+	'noemailqueueadd'        => '-- Очередь ожидания Email не добавлена --',
+	'editcatchallrule'       => 'Редактировать общее правило',
+	'emailqueue'             => 'Очередь ожидания Email получателя',
+
 	// Potentialy unused phrases in mailparser_misc.php
 	'invalidemailaddress' => 'Invalid email address specified',
 

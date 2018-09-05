@@ -5,47 +5,47 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
-$__LANG = array (
-	'userwarningnoresponse' => 'The user\'s chat window is not responding. If you continue to receive this message, the user may have ended their chat, lost connection or the session may have timed out.',
-	'transferattempt' => 'Attempting to transfer the chat to "%s"',
-	'onsitelegacy' => 'Your version of Kayako Desktop is outdated; please update.',
-	'transferrejected' => '%s has rejected the transfer request. Reason: %s',
-	'confirmconference' => "%s has already accepted the chat.",
+$__LANG = array(
+	'userwarningnoresponse'   => 'Окно чата посетителя не отвечает. Если у Вас продолжает высвечиваться это сообщение, возможно посетитель закончил сессию или время сессии истекло.',
+	'transferattempt'         => 'Выполняется попытка направить чат к "%s"',
+	'onsitelegacy' 		  => 'Ваше ПО Kayako Desktop устарело. Пожалуйста, установите версию, совместимую с Fusion 4.68',
+	'transferrejected'        => '"%s" отклонил запрос начать чат. Причина: %s',
+	'confirmconference'       => "%s принял запрос начать чат.",
 
-	'staffchatnotonline' => 'Staff is not online',
-	'staffnochatobjectcreate' => 'We encountered a problem (unable to create chat object)',
-	'livesupport' => 'Live Chat',
-	'incomingchat' => 'Pending Chat',
-	'inchat' => 'In Chat',
-	'browsing' => 'Browsing',
-	'fullname' => 'Name',
-	'email' => 'Email',
-	'department' => 'Department',
-	'visitorblocked' => 'Visitor banned by %s',
-	'sno' => 'No.',
-	'dateadded' => 'Date',
-	'addedby' => 'Added by',
-	'note' => 'Note',
-	'conversation' => 'Conversation',
-	'refresh' => 'Refresh',
-	'goback' => 'Go Back',
-	'chatid' => 'Chat ID',
-	'date' => 'Date',
-	'fullname' => 'Name',
-	'staffname' => 'Staff name',
-	'department' => 'Department',
-	'chatleave' => '%s has left the conversation.',
-	'chatenter' => '%s has joined the conversation.',
-	'chatexpired' => 'Chat session has expired or ended.',
+	'staffchatnotonline'      => 'Персонал не в сети',
+	'staffnochatobjectcreate' => 'Невозможно создать объект чата',
+	'livesupport'             => 'Чат онлайн',
+	'incomingchat'            => 'Ожидающий ответа чат',
+	'inchat'                  => 'В чате',
+	'browsing'                => 'Быстрый просмотр',
+	'fullname'                => 'Имя и фамилия',
+	'email'                   => 'Email',
+	'department'              => 'Департамент',
+	'visitorblocked'          => 'Посетитель заблокирован %s',
+	'sno'                     => 'Нет.',
+	'dateadded'               => 'Дата',
+	'addedby'                 => 'Добавлено',
+	'note'                    => 'Заметка',
+	'conversation'            => 'Разговор',
+	'refresh'                 => 'Обновить',
+	'goback'                  => 'Вернуться',
+	'chatid'                  => 'ID чата',
+	'date'                    => 'Дата',
+	'fullname'                => 'Имя и фамилия',
+	'staffname'               => 'Имя сотрудника',
+	'department'              => 'Департамент',
+	'chatleave'               => '%s покинул чат.',
+	'chatenter'               => '%s присоединился к конференции в чате.',
+	'chatexpired'             => 'Сессия чата истекла или закончилась.',
 );
 ?>

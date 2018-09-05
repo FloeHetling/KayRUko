@@ -5,73 +5,73 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
-$__LANG = array (
-	'widgets' => 'Widgets',
-	'manage' => 'Manage',
-	'wineditwidget' => 'Edit Widget: %s',
-	'widgettitle' => 'Widget label',
-	'desc_widgettitle' => 'For example, <em>Community Forums</em>. You can prefix the title with "PHRASE:" to load the respective language phrase.',
-	'widgetlink' => 'URL',
-	'desc_widgetlink' => 'Enter the URL that the widget will take users to.',
-	'defaulticon' => 'Large icon',
-	'desc_defaulticon' => 'Upload or link to an icon for this widget. {$themepath} can be used to point to the helpdesk images directory, for example: <em>{$themepath}icon_widget_default.png</em>.',
-	'defaultsmallicon' => 'Smaller icon',
-	'desc_defaultsmallicon' => 'This icon will be used in the top navigation bar. Enter the full URL to the icon or upload a custom icon. Use {$themepath} as a replacement variable for full path to client theme directory.',
-	'displayorder' => 'Upload or link to an icon for this widget. {$themepath} can be used to point to the helpdesk images directory, for example: <em>{$themepath}icon_widget_default_small.png</em>.',
-	'displayinnavbar' => 'Display in support center navigation bar',
-	'desc_displayinnavbar' => 'This widget will be listed in the main support center navigation bar, if enabled.',
-	'displayinindex' => 'Display in home page widget list',
-	'desc_displayinindex' => 'This widget will be listed on the home page of the support center.',
-	'isenabled' => 'Widget is enabled',
-	'desc_isenabled' => 'This widget will not be displayed anywhere if set to no.',
-	'visibilityall' => '- All Users -',
-	'visibilityloggedin' => '- Logged in Users only -',
-	'visibilityguests' => '- Guests Only -',
-	'widgetvisibility' => 'Widget visibility',
-	'desc_widgetvisibility' => 'Control which type of users get to see this widget.',
-	'displayorder' => 'Display order',
-	'desc_displayorder' => 'Widgets are displayed according to their display order number, smallest to largest.',
-	'edit' => 'Edit',
-	'insert' => 'Insert',
-	'tabgeneral' => 'General',
-	'taboptions' => 'Options',
-	'titleinvalidfileext' => 'Unsupported image type',
-	'msginvalidfileext' => 'Supported image file types are: gif, jpeg, jpg, png.',
-	'titlewidgetinsert' => 'New widget %s created',
-	'msgwidgetinsert' => 'The widget %s was created successfully.',
-	'titlewidgetupdate' => 'Widget %s updated',
-	'msgwidgetupdate' => 'The widget %s was updated successfully.',
-	'titledeletedwidget' => 'Widgets deleted (%d)',
-	'msgdeletedwidget' => 'The following widgets have been deleted:',
-	'titledeletedwidgetfail' => 'Unable to delete widgets (%d)',
-	'msgdeletedwidgetfail' => 'The following master widgets could not be deleted:',
-	'uservisibilitycustom' => 'Restrict widget to specific user groups',
-	'desc_uservisibilitycustom' =>  'If enabled, only the user groups below will be able to see this widget.',
-	'tabpermissionsclient' => 'Permissions',
-	'usergroups' => 'User Groups',
+$__LANG = array(
+	'widgets'                   => 'Виджеты',
+	'manage'                    => 'Управлять',
+	'wineditwidget'             => 'Редактировать виджет: %s',
+	'widgettitle'               => 'Название виджета',
+	'desc_widgettitle'          => 'Введите название виджета. Для загрузки соответствующей фразы напишите "PHRASE:" перед названием виджета.',
+	'widgetlink'                => 'Ссылка',
+	'desc_widgetlink'           => 'Введите ссылку на виджет.',
+	'defaulticon'               => 'Значок',
+	'desc_defaulticon'          => 'Загрузите изображение или введите полный URL изображения, которое будет отображаться как индикатор этого виджета. Вы можете использовать {$themepath} как переменную замены для полного URL в каталоге.',
+	'defaultsmallicon'          => 'Маленькая иконка',
+	'desc_defaultsmallicon'     => 'Эта иконка будет использоваться в верхней навигационной панели. Введите полный URL иконки или загрузите пользовательскую иконку. Вы можете использовать переменную {$themepath} как замену полного пути к папке темы.',
+	'displayorder'              => 'Порядок отображения',
+	'displayinnavbar'           => 'Отображение в панели навигации',
+	'desc_displayinnavbar'      => 'Укажите, следует ли отображать этот виджет в верхней панели навигации.',
+	'displayinindex'            => 'Отображение в списке',
+	'desc_displayinindex'       => 'Укажите, следует ли отображать этот виджет в списке на главной странице.',
+	'isenabled'                 => 'Активировано?',
+	'desc_isenabled'            => 'Если эта опция активирована, виджет будут отображаться в панели навигации и в списке.',
+	'visibilityall'             => '- Все пользователи -',
+	'visibilityloggedin'        => '- Только зарегистрированные пользователи -',
+	'visibilityguests'          => '- Только гости -',
+	'widgetvisibility'          => 'Отображение',
+	'desc_widgetvisibility'     => 'Используя эту опцию вы можете запретить отображение виджета, как для зарегистрированных пользователей так и для гостей.',
+	'displayorder'              => 'Порядок отображения',
+	'desc_displayorder'         => 'Это порядок отображения элементов по умолчанию. Список элментов отображается в порядке возрастания.',
+	'edit'                      => 'Редактировать',
+	'insert'                    => 'Вставить',
+	'tabgeneral'                => 'Общие',
+	'taboptions'                => 'Опции',
+	'titleinvalidfileext'       => ' Некорректное расширение файла изображения',
+	'msginvalidfileext'         => 'У файла изображения для иконки некорректное расширение. Допустимые виды расширения: gif, jpeg, jpg, png.',
+	'titlewidgetinsert'         => 'Вставить виджет "%s"',
+	'msgwidgetinsert'           => 'Kayako виджет успешно установлен "%s".',
+	'titlewidgetupdate'         => 'Виджет обновлен "%s"',
+	'msgwidgetupdate'           => 'Kayako виджет успешно обновлен"%s".',
+	'titledeletedwidget'        => 'Виджет "%d" удален',
+	'msgdeletedwidget'          => 'Kayako виджет успешно удален из базы данных:',
+	'titledeletedwidgetfail'    => 'Невозможно удалить "%d" виджет',
+	'msgdeletedwidgetfail'      => 'Kayako невозможно удалить основной виджет:',
+	'uservisibilitycustom'      => 'Ограничить доступ определенных групп  пользователей?',
+	'desc_uservisibilitycustom' => 'При включении данной опции, этот виджет будет виден только выбранным группам пользователей.',
+	'tabpermissionsclient'      => 'Доступ',
+	'usergroups'                => 'Группы пользователей',
 
 	/*
 	 * ###############################################
 	 * WIDGETS
 	 * ###############################################
 	 */
-	'widgetregister' => 'Register',
-	'widgethome' => 'Home',
-	'widgetknowledgebase' => 'Knowledgebase',
-	'widgetnews' => 'News',
-	'widgetsubmitticket' => 'Submit a Ticket',
-	'widgetviewtickets' => 'My Tickets',
-	'widgettroubleshooter' => 'Troubleshooter',
+	'widgetregister'            => 'Регистрация',
+	'widgethome'                => 'Главная',
+	'widgetknowledgebase'       => 'База знаний',
+	'widgetnews'                => 'Новости',
+	'widgetsubmitticket'        => 'Отправить заявку',
+	'widgetviewtickets'         => 'Просмотреть заявки',
+	'widgettroubleshooter'      => 'Устранение неполадок',
 );
 
 ?>

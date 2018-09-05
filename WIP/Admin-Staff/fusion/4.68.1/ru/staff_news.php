@@ -5,36 +5,36 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 $__LANG = array(
-	'global' => 'Global',
-	'ftnewscategories' => 'Categories',
-	'newstype' => 'Type',
-	'ftdate' => 'Date',
-	'news' => 'News',
-	'nwreadmore' => 'Read more &raquo;',
-	'nwpostedby' => 'Posted by ',
-	'on' => 'on',
-	'viewall' => 'View All',
-	'tabviewall' => 'News',
-	'olderposts' => 'Older Posts',
-	'newerposts' => 'Newer Posts',
-	'tabnews' => 'View News',
-	'informationbox' => 'Information',
-	'infobcreationdate' => 'CREATED ON',
-	'infobsync' => 'SYNCHRONIZED',
-	'infobsyncdate' => 'SYNC DATE',
-	'infobauthor' => 'AUTHOR',
-	'infobeditedon' => 'EDITED ON',
-	'infobeditedby' => 'LAST EDITED BY',
+	'global'            => 'Общие',
+	'ftnewscategories'  => 'Категории',
+	'newstype'          => 'Тип',
+	'ftdate'            => 'Дата',
+	'news'              => 'Новости',
+	'nwreadmore'        => 'Подробнее &raquo;',
+	'nwpostedby'        => 'Сообщение от  ',
+	'on'                => 'на',
+	'viewall'           => 'Все',
+	'tabviewall'        => 'Новости',
+	'olderposts'        => 'Старые сообщения',
+	'newerposts'        => 'Новые сообщения',
+	'tabnews'           => 'Новости',
+	'informationbox'    => 'Информация',
+	'infobcreationdate' => 'СОЗДАНО',
+	'infobsync'         => 'СИНХРОНИЗИРОВАНО',
+	'infobsyncdate'     => 'ДАТА СИНХРОНИЗАЦИИ',
+	'infobauthor'       => 'АВТОР',
+	'infobeditedon'     => 'ОТРЕДАКТИРОВАНО',
+	'infobeditedby'     => 'ОТРЕДАКТИРОВАНО ПОСЛЕДНИЙ РАЗ',
 )
 ?>

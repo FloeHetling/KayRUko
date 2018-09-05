@@ -5,80 +5,80 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
-$__LANG = array (
-	'ratings' => 'Ratings',
-	'tabgeneral' => 'General',
-	'tabpermissionsstaff' => 'Permissions (Staff)',
-	'tabpermissionsuser' => 'Permissions (User)',
-	'staffgroups' => 'Staff Teams',
-	'usergroups' => 'User Groups',
-	'ratingticket' => 'Ticket',
-	'ratingticketpost' => 'Ticket posts',
-	'ratingchatsurvey' => 'Chat survey',
-	'ratingchathistory' => 'Chat history',
+$__LANG = array(
+	'ratings'                     => 'Рейтинги',
+	'tabgeneral'                  => 'Общие',
+	'tabpermissionsstaff'         => 'Права доступа (персонал)',
+	'tabpermissionsuser'          => 'Права доступа (пользователь)',
+	'staffgroups'                 => 'Группы сотрудников',
+	'usergroups'                  => 'Группы пользователей',
+	'ratingticket'                => 'Заявка',
+	'ratingticketpost'            => 'Сообщение заявки',
+	'ratingchatsurvey'            => 'Опрос чата',
+	'ratingchathistory'           => 'История чата',
 
-	'staffvisibilitycustom' => 'Restrict rating modification to certain staff teams',
-	'desc_staffvisibilitycustom' => 'If enabled, only the teams below will be able to modify and set values for this rating.',
+	'staffvisibilitycustom'       => 'Ограничить возможность изменения рейтингов для определенных групп сотрудников?',
+	'desc_staffvisibilitycustom'  => 'Активируйте эту настройку если вы хотите управлять возможностью групп сотрудников (выбранных ниже) <strong>изменять</strong> этот рейтинг.',
 
-	'buservisibilitycustom' => 'Restrict rating to specific user groups',
-	'desc_buservisibilitycustom' => 'If enabled, only the user groups below will be able to modify and set values for this rating.',
+	'buservisibilitycustom'       => 'Ограничить рейтинги определенных групп пользователей?',
+	'desc_buservisibilitycustom'  => 'Активируйте эту настройку если вы хотите управлять возможностью групп пользователей (выбранных ниже) <strong>видеть и изменять</strong> этот рейтинг.',
 
-	'bstaffvisibilitycustom' => 'Restrict rating to specific staff teams',
-	'desc_bstaffvisibilitycustom' =>  'If enabled, only the teams below will be able to view this rating.',
+	'bstaffvisibilitycustom'      => 'Ограничить рейтинги определенных групп сотрудников?',
+	'desc_bstaffvisibilitycustom' => 'Активируйте эту настройку если вы хотите управлять возможностью групп сотрудников (выбранных ниже) <strong>видеть</strong> этот рейтинг.',
 
-	'isclientonly' => 'Prevent staff from setting values for this rating',
-	'desc_isclientonly' => 'Only end users will be able to set values for this rating if enabled.',
+	'isclientonly'                => 'Запретить сотрудникам устанавливать и редактировать рейтинги?',
+	'desc_isclientonly'           => 'Если эта настройка включена, только пользователи смогут устанавливать и редактировать этот рейтинг. Ваши сотрудники не смогут его менять.',
 
-	'ratingscale' => 'Rating scale',
-	'desc_ratingscale' => 'The maximum rating that can be given. For example, if <em>5</em> is selected, the lowest possible rating will be 1 and the highest 5.',
+	'ratingscale'                 => 'Шкала рейтингов',
+	'desc_ratingscale'            => 'Выберите максимальный рейтинг, который может быть присвоен (это количество переводится в <em>звёздочки</em>).',
 
-	'ratingtype' => 'Helpdesk area',
-	'desc_ratingtype' => 'The area of the helpdesk this rating will apply to. <br /><br /><strong>Ticket:</strong> Used to rate entire tickets.<br /><strong>Ticket post:</strong> Used to rate individual ticket responses.<br /><strong>Chat survey:</strong> Ratings will be added to the post-chat survey.<br /><strong>Chat history:</strong> Used to rate chat records in the staff control panel (intended for internal rating and auditing).',
+	'ratingtype'                  => 'Вид рейтинга',
+	'desc_ratingtype'             => 'Выберите зону в вашей службе поддержки клиентов, для которой необходимо применить этот рейтинг. <br /><br /><strong>Заявка:</strong> Предложить рейтинг для заявки в целом<br /><strong>Сообщение заявки:</strong> Предложить рейтинг для отдельных сообщений заяви<br /><strong>Опрос после чата:</strong> Предложить рейтинг для чата как часть опроса после чата<br /><strong>Запись истории чата:</strong> Предложить рейтинг истории чата на панели управления персонала (предназначено для внутреннего рейтинга и контроля)',
 
-	'ratingtitle' => 'Rating label',
-	'desc_ratingtitle' => 'For example, <em>Overall satisfaction</em> or <em>Speed of resolution</em>.',
+	'ratingtitle'                 => 'Название рейтинга',
+	'desc_ratingtitle'            => 'Например, <em>"Общая удовлетворенность"</em> или <em>"Скорость ответа"</em>.',
 
-	'displayorder' => 'Display order',
-	'desc_displayorder' => 'Multiple ratings can appear in the same location. They will be displayed according to their display order number, smallest to largest.',
+	'displayorder'                => 'Порядок отображения',
+	'desc_displayorder'           => 'Это порядок отображения элементов по умолчанию. Список сортируется в порядке возрастания.',
 
-	'ratingdep' => 'Restrict rating to a department',
-	'desc_ratingdep' => 'Select a department to restrict this rating to tickets or chats within a specific department. If no department is selected, the rating will appear across all departments.',
-	'ratingalldep' => '-- All departments --',
+	'ratingdep'                   => 'Ограничить рейтинг департамента',
+	'desc_ratingdep'              => 'Если Вы хотите ограничить этот рейтинг для определенного департамента, выберите департамент здесь.',
+	'ratingalldep'                => '-- Все департаменты --',
 
-	'iseditable' => 'Allow modification after first submission',
-	'desc_iseditable' => 'The value set for this rating can be modified, if enabled.',
+	'iseditable'                  => 'Можно ли изменить после отправки?',
+	'desc_iseditable'             => 'Можно ли изменить этот рейтинг после того, как он был отправлен?',
 
-	'ratingvisibility' => 'Who can submit a rating?',
-	'desc_ratingvisibility' => '<strong>Public</strong> Ratings are available to all users. Select this option if you want to collect feedback from your end users and have the ratings visible to staff too.<br /><strong>Private</strong> Ratings are available only to your staff users, for internal rating purposes.',
+	'ratingvisibility'            => 'Кто может давать рейтинг?',
+	'desc_ratingvisibility'       => '<strong>Общие</strong> рейтинги доступны и вашим пользователям, и сотрудникам. Выберите эту опцию для востребования отзывов от ваших пользователей. <strong>Приватные</strong> рейтинги доступны только вашим сотрудникам для осуществления внутреннего рейтинга и контроля.',
 
-	'ratingvis' => 'Visibility',
-	'insertrating' => 'Insert Rating',
-	'desc_insertrating' => '',
-	'manageratings' => 'Manage',
-	'desc_manageratings' => '',
-	'wineditrating' => 'Edit rating: %s',
-	'editrating' => 'Edit rating',
-	'desc_editrating' => '',
-	'titledelrating' => 'Ratings deleted (%d)',
-	'msgdelrating' => 'The following ratings and all their data were deleted:',
-	'titleratinginsert' => 'Rating created',
-	'msgratinginsert' => 'The rating (%s) was created successfully.',
-	'titleratingupdate' => 'Rating updated',
-	'msgratingupdate' => 'The rating (%s) was updated successfully.',
-	
+	'ratingvis'                   => 'Доступ',
+	'insertrating'                => 'Добавить рейтинг',
+	'desc_insertrating'           => '',
+	'manageratings'               => 'Управление',
+	'desc_manageratings'          => '',
+	'wineditrating'               => 'Редактировать рейтинг: %s',
+	'editrating'                  => 'Редактировать рейтинг',
+	'desc_editrating'             => '',
+	'titledelrating'              => 'Удалено "%d" рейтингов',
+	'msgdelrating'                => 'Следующие рейтинги были успешно удалены из базы данных:',
+	'titleratinginsert'           => 'Рейтинг добавлен',
+	'msgratinginsert'             => 'Рейтинг "%s" был успешно добавлен в базу данных.',
+	'titleratingupdate'           => 'Рейтинг обновлен',
+	'msgratingupdate'             => 'Рейтинг "%s" был успешно обновлен.',
+
 	// Potentialy unused phrases in admin_ratings.php
-	'ratingknowledgebase' => 'Knowledgebase',
-	'ratingtroubleshooter' => 'Troubleshooter',
-	'ratingnews' => 'News',
+	'ratingknowledgebase'         => 'База знаний',
+	'ratingtroubleshooter'        => 'Устранение неполадок',
+	'ratingnews'                  => 'Новости',
 );
 ?>

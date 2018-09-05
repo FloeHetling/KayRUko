@@ -5,23 +5,23 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 $__LANG = array(
-	'notificationwas' => ' (was: %s)',
-	'notificationcleared' => '- Cleared -',
-	'ninfoupdateduser' => '%s has registered or updated their profile',
-	'ninfoupdatedstaff' => '%s has created or updated the profile of: %s',
-	'notificationstaffcp' => 'Staff CP: ',
-	'nusernotsubject' => '[User Notification]: %s',
+	'notificationwas'     => ' (было: %s)',
+	'notificationcleared' => '- Очищено -',
+	'ninfoupdateduser'    => '%s зарегистрировал или обновил свой профиль',
+	'ninfoupdatedstaff'   => '%s создал или обновил профиль для: %s',
+	'notificationstaffcp' => 'ПУ Персонала: ',
+	'nusernotsubject'     => '[уведомление пользователя]: %s',
 
 
 	/**
@@ -29,13 +29,13 @@ $__LANG = array(
 	 * EMAIL STRINGS
 	 * ---------------------------------------------
 	 */
-	'ntitle_url' => 'URL: ',
-	'ntitle_fullname' => 'Name: ',
-	'ntitle_email' => 'Email address: ',
-	'ntitle_phone' => 'Phone number: ',
-	'nval_na' => '- NA -',
-	'ntitle_created' => 'Created: ',
-	'ntitle_designation' => 'Title or position: ',
-	'ntitle_organization' => 'Organization: ',
+	'ntitle_url'          => 'URL: ',
+	'ntitle_fullname'     => 'Имя: ',
+	'ntitle_email'        => 'Email адрес: ',
+	'ntitle_phone'        => 'Номер телефона: ',
+	'nval_na'             => '- Нет данных -',
+	'ntitle_created'      => 'Создано: ',
+	'ntitle_designation'  => 'Звание или должность: ',
+	'ntitle_organization' => 'Организация: ',
 );
 ?>

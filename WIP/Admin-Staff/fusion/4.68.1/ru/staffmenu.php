@@ -8,7 +8,7 @@
 // License Number: $%LICENSE%$
 // $Author$ ($Date$)
 // $RCSfile$ : $Revision$
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 //                   www.kayako.com
 //###################################
 //=======================================
@@ -16,7 +16,7 @@
 
 $__LANG = array (
 	// Potentialy unused phrases in staffmenu.php
-	'settings' => 'Settings',
+	'settings' => 'Настройки',
 	'worksched' => 'Work Schedule',
 	'changepass' => 'Change Password',
 	'snewtickets' => 'New Tickets',

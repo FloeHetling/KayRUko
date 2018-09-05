@@ -5,29 +5,29 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 
-$__LANG = array (
-	'notificationwas' => ' (was: %s)',
-	'notification_sla' => 'SLA: ',
-	'notificationcleared' => '- Cleared -',
-	'notification_due' => 'Reply due: ',
-	'notification_resolutiondue' => 'Resolution due: ',
-	'notification_flag' => 'Flag: ',
-	'notification_department' => 'Department: ',
-	'notification_type' => 'Type: ',
-	'notification_status' => 'Status: ',
-	'notification_priority' => 'Priority: ',
-	'notification_staff' => 'Staff (Owner): ',
+$__LANG = array(
+	'notificationwas'            => ' (было: %s)',
+	'notification_sla'           => 'SLA: ',
+	'notificationcleared'        => '- Очищено -',
+	'notification_due'           => 'Ответить до : ',
+	'notification_resolutiondue' => 'Время решения: ',
+	'notification_flag'          => 'Флаг: ',
+	'notification_department'    => 'Департамент: ',
+	'notification_type'          => 'Тип: ',
+	'notification_status'        => 'Статус: ',
+	'notification_priority'      => 'Приоритет: ',
+	'notification_staff'         => 'Сотрудник (владелец): ',
 
 
 	/**
@@ -35,30 +35,30 @@ $__LANG = array (
 	 * EMAIL STRINGS
 	 * ---------------------------------------------
 	 */
-	'ntitle_ticketid' => 'Ticket ID: ',
-	'ntitle_url' => 'URL: ',
-	'ntitle_fullname' => 'Name: ',
-	'ntitle_email' => 'Email address: ',
-	'ntitle_phone' => 'Phone number: ',
-	'nval_user' => 'User',
-	'nval_staff' => 'Staff',
-	'ntitle_creator' => 'Creator: ',
-	'ntitle_department' => 'Department: ',
-	'nval_unassigned' => '-- Unassigned --',
-	'nval_na' => '- NA -',
-	'nval_trash' => 'Trash',
-	'ntitle_owner' => 'Staff (Owner): ',
-	'ntitle_type' => 'Type: ',
-	'ntitle_status' => 'Status: ',
-	'ntitle_priority' => 'Priority: ',
-	'ntitle_sla' => 'SLA: ',
-	'ntitle_tgroup' => 'Template group: ',
-	'ntitle_created' => 'Created: ',
-	'ntitle_updated' => 'Updated: ',
-	'ntitle_due' => 'Reply due: ',
-	'ntitle_resolutiondue' => 'Resolution due: ',
-	'ninfoupdated' => '%s updated #%s',
-	'notificationstaffcp' => 'Staff CP: ',
+	'ntitle_ticketid'            => 'ID заявки: ',
+	'ntitle_url'                 => 'URL: ',
+	'ntitle_fullname'            => 'Имя: ',
+	'ntitle_email'               => 'Email адрес: ',
+	'ntitle_phone'               => 'Номер телефона: ',
+	'nval_user'                  => 'Пользователь',
+	'nval_staff'                 => 'Персонал',
+	'ntitle_creator'             => 'Создатель: ',
+	'ntitle_department'          => 'Департамент: ',
+	'nval_unassigned'            => '-- Не назначено --',
+	'nval_na'                    => '- Нет данных -',
+	'nval_trash'                 => 'Корзина',
+	'ntitle_owner'               => 'Сотрудник (владелец): ',
+	'ntitle_type'                => 'Тип: ',
+	'ntitle_status'              => 'Статус: ',
+	'ntitle_priority'            => 'Приоритет: ',
+	'ntitle_sla'                 => 'SLA: ',
+	'ntitle_tgroup'              => 'Группа шаблонов: ',
+	'ntitle_created'             => 'Создано: ',
+	'ntitle_updated'             => 'Обновлено: ',
+	'ntitle_due'                 => 'Ответить до: ',
+	'ntitle_resolutiondue'       => 'Время решения: ',
+	'ninfoupdated'               => '%s обновлено #%s',
+	'notificationstaffcp'        => 'ПУ Персонала: ',
 );
 
 ?>

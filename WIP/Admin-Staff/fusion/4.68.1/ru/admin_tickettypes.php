@@ -5,50 +5,50 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 
-$__LANG = array (
-	'tickets' => 'Tickets',
-	'tabgeneral' => 'General',
-	'tabpermissions' => 'Permissions',
-	'managetypes' => 'Types',
-	'winedittickettype' => 'Edit Ticket Type: %s',
-	'typetitle' => 'Ticket type label',
-	'desc_typetitle' => 'For example, <em>Bug</em> or <em>Site Visit</em>.',
-	'typevisibility' => 'Visibility',
-	'titlemastertypedelete' => 'Couldn\'t delete ticket types (%d)',
-	'msgmastertypedelete' => 'The following master ticket types cannot be deleted:',
-	'inserttype' => 'Insert Type',
-	'edittype' => 'Edit Type',
-	'displayorder' => 'Display order',
-	'desc_displayorder' => 'Wherever they are listed, ticket types are sorted according to their display order number, smallest to largest.',
-	'typevisibility2' => 'Visibility',
-	'desc_typevisibility2' => '<strong>Public</strong> Ticket types can be seen by everyone.<br /><strong>Private</strong> Ticket types can only be seen by staff.',
-	'typedepartment' => 'Department link',
-	'desc_typedepartment' => 'If a ticket type is linked to a specific department, it will only be available to tickets under that department.',
-	'typealldep' => '-- Not Linked --',
-	'displayicontype' => 'Icon',
-	'desc_displayicontype' => 'Upload or link to an icon for this ticket type. {$themepath} can be used to point to the helpdesk images directory, for example: <em>{$themepath}icon_typetask.gif</em>.',
-	'titledeltickettype' => 'Ticket types deleted (%d)',
-	'msgdeltickettype' => 'The following ticket types were deleted:',
-	'titletickettypeinsert' => 'Ticket type %s created',
-	'msgtickettypeinsert' => 'The ticket type %s was created successfully.',
-	'titletickettypeupdate' => 'Ticket type %s updated',
-	'msgtickettypeupdate' => 'The ticket type %s was updated successfully.',
-	'uservisibilitycustom' => 'Restrict ticket type to specific user groups',
-	'desc_uservisibilitycustom' =>  'If enabled (and if the visibility setting for this ticket type is set to <strong>public</strong>), only the user groups below will be able to see this ticket type (and it will be masked for other user groups).',
-	'usergroups' => 'User Groups',
-	'tabpermissions' => 'Permissions',
-	'tablanguages' => 'Languages: Translation',
+$__LANG = array(
+	'tickets'                   => 'Заявки',
+	'tabgeneral'                => 'Общие',
+	'tabpermissions'            => 'Доступ',
+	'managetypes'               => 'Типы',
+	'winedittickettype'         => 'Редактировать тип заявки: %s',
+	'typetitle'                 => 'Название типа заявки',
+	'desc_typetitle'            => 'Например <em>Ошибка</em> или <em>Посетить сайт</em>.',
+	'typevisibility'            => 'Видимость',
+	'titlemastertypedelete'     => 'Невозможно удалить "%d" типов заявок',
+	'msgmastertypedelete'       => 'Kayako не может удалить следующие основные типы заявок:',
+	'inserttype'                => 'Добавить тип',
+	'edittype'                  => 'Редактировать тип',
+	'displayorder'              => 'Порядок отображения',
+	'desc_displayorder'         => 'Это порядок отображения элементов по умолчанию. Список элментов отображается в порядке возрастания.',
+	'typevisibility2'           => 'Видимость',
+	'desc_typevisibility2'      => 'Выберите видимость вида заявки. Публичные типы видны только в центре поддержки клиентов, тогда как приватные типы видны только сотрудникам.',
+	'typedepartment'            => 'Связь',
+	'desc_typedepartment'       => 'Эта настройка позволяет связывать этот тип заявок с одним из существующих департаментов. Если тип заявки связан с одним из департаментов, он будет виден только в том департаменте, к которому он привязан.',
+	'typealldep'                => '-- Не связан --',
+	'displayicontype'           => 'Значок',
+	'desc_displayicontype'      => 'Загрузите изображение или введите полный URL изображения, которое будет отображаться как индикатор этого типа заявок.  Вы можете использовать {$themepath} как переменную замены для полного URL в каталоге, например <em>{$themepath}icon_typetask.gif</em>.  Рекомендуемый размер изображения - 16x16 пикселей.',
+	'titledeltickettype'        => 'Удалено "%d" типов заявок',
+	'msgdeltickettype'          => 'Следующие типы заявок были успешно удалены из базы данных:',
+	'titletickettypeinsert'     => 'Добавлен тип заявки "%s"',
+	'msgtickettypeinsert'       => 'Тип заявки "%s" был успешно добавлен в базу данных.',
+	'titletickettypeupdate'     => 'Обновлен тип заявки "%s"',
+	'msgtickettypeupdate'       => 'Тип заявки "%s" был успешно обновлен.',
+	'uservisibilitycustom'      => 'Ограничить права доступа групп пользователей',
+	'desc_uservisibilitycustom' => 'Когда эта опция включена, только указанные группы пользователей смогут видеть этот тип заявки. Эта опция доступна только при условии, что выбрана ПУБЛИЧНАЯ видимость.',
+	'usergroups'                => 'Группы пользователей',
+	'tabpermissions'            => 'Доступ',
+	'tablanguages'              => 'Языки: Перевод',
 );
 
 ?>

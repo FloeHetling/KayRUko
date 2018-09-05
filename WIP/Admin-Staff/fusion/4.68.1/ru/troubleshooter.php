@@ -5,94 +5,94 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
-$__LANG = array (
-	'troubleshooter' => 'Troubleshooter',
+$__LANG = array(
+	'troubleshooter'                 => 'Устранение неполадок',
 
 	// Manage Categories
-	'categories' => 'Categories',
-	'managecategories' => 'Manage Categories',
-	'desc_troubleshootercat' => '',
-	'tscattitle' => 'Category Title',
-	'desc_tscattitle' => '',
-	'tscatviews' => 'Views',
-	'desc_tscatviews' => 'The number of views the category has had. These are incremented automatically whenever a user clicks on a category.',
-	'tscatdisporder' => 'Display Order',
-	'desc_tscatdisporder' => 'Categories are sorted according to their display order number, smallest to largest.',
-	'tscatlist' => 'Category List',
-	'tscatdesc' => 'Description',
-	'desc_tscatdesc' => 'A category description is displayed below the title. The description is limited to 255 characters in length.',
-	'steps' => 'Steps',
+	'categories'                     => 'Категории',
+	'managecategories'               => 'Управление категориями',
+	'desc_troubleshootercat'         => '',
+	'tscattitle'                     => 'Название',
+	'desc_tscattitle'                => '',
+	'tscatviews'                     => 'Просмотры',
+	'desc_tscatviews'                => 'Количество просмотров категории. Количество автоматически увеличивается с каждым кликом пользователя по категории.',
+	'tscatdisporder'                 => 'Порядок отображения',
+	'desc_tscatdisporder'            => 'Категории сортируются в соответствии с номером отображения, от маленького до большого.',
+	'tscatlist'                      => 'Список категорий',
+	'tscatdesc'                      => 'Описание',
+	'desc_tscatdesc'                 => 'Описание категории отображается под ее названием. Максимально допустимое количество символов - 255.',
+	'steps'                          => 'Шаги',
 
 	// Insert Category
-	'insertcategory' => 'Insert Category',
-	'tscatdetails' => 'Category Details',
-	'templategroups' => 'Template Groups',
-	'desc_templategroups' => 'Select the template groups which will display this troubleshooter category in the support center.',
-	'inserttscat' => 'Insert Category',
-	'updatetscat' => 'Update Category',
-	'selectonetgroup' => 'ERROR: You need to select at least one Template Group',
-	'troubleshootercatinsertconfirm' => 'Created troubleshooter category (%s)',
-	'tcatdeleteconfirm' => 'Troubleshooter category deleted successfully',
-	'tcatsdeleteconfirm' => 'Troubleshooter categories deleted successfully',
-	'tcatdelconfirm' => 'Are you sure you wish to delete this category?\nDeleting a category will also delete all of the troubleshooter steps within it.',
-	'invalidtroubleshootercategory' => 'Invalid troubleshooter category',
+	'insertcategory'                 => 'Добавить категорию',
+	'tscatdetails'                   => 'Информация о категории',
+	'templategroups'                 => 'Группа шаблонов',
+	'desc_templategroups'            => 'Выберите группы шаблонов, которые будут отображать эту категорию устранения неполадок в центре поддержки.',
+	'inserttscat'                    => 'Добавить категорию',
+	'updatetscat'                    => 'Обновить категорию',
+	'selectonetgroup'                => 'ОШИБКА: Необходимо выбрать как минимум одну группу шаблонов',
+	'troubleshootercatinsertconfirm' => 'Создана категория устранения неполадок (%s)',
+	'tcatdeleteconfirm'              => 'Категория устранения неполадок успешно удалена',
+	'tcatsdeleteconfirm'             => 'Категории устранения неполадок успешно удалены',
+	'tcatdelconfirm'                 => 'Вы уверены, что хотите удалить эту категорию?\\nВ результат данного действия все шаги по устранению неполадок в этой категории будут удалены.',
+	'invalidtroubleshootercategory'  => 'Неверная категория устранения неполадок',
 
 	// Edit Category
-	'editcategory' => 'Edit Category',
-	'troubleshootercatupdateconfirm' => 'Updated troubleshooter category (%s)',
-	
+	'editcategory'                   => 'Редактировать категорию',
+	'troubleshootercatupdateconfirm' => 'Категория устранения неполадок обновлена (%s)',
+
 	// Manage Steps
-	'troubleshootersteps' => 'Troubleshooter Steps',
-	'managesteps' => 'Manage Steps',
-	'addstep' => 'Add Step',
-	'addcategory' => 'Add Category',
-	'troubleshooters' => 'Troubleshooters',
-	'filter' => 'Filter',
-	'stepdelconfirmmsg' => 'Are you sure you wish to delete this step? Deleting a step will result in deletion of all the child steps under it.',
-	'tsdelconfirm' => 'Deleted troubleshooter steps',
-	'stepdeleteconfirm' => 'Deleted %s troubleshooter steps',
-	'filtertgroupid' => 'Template Group',
-	'desc_filtertgroupid' => 'Filter by template group. Only the troubleshooter categories under the selected template group will be shown.',
-	'listview' => 'List View',
-	'tssteplist' => 'Troubleshooter Step List',
-	'treeview' => 'Tree View',
+	'troubleshootersteps'            => 'Шаги по устранению неполадок',
+	'managesteps'                    => 'Управление шагами',
+	'addstep'                        => 'Добавить шаг',
+	'addcategory'                    => 'Редактировать категорию',
+	'troubleshooters'                => 'Устранение неполадок',
+	'filter'                         => 'Фильтр',
+	'stepdelconfirmmsg'              => 'Вы уверены, что хотите удалить этот шаг? В результате этого действия все дочерние шаги также будут удалены.',
+	'tsdelconfirm'                   => 'Шаги по устранению неполадок удалены',
+	'stepdeleteconfirm'              => 'Удалены %s шаги по устранению неполадок',
+	'filtertgroupid'                 => 'Группа шаблонов',
+	'desc_filtertgroupid'            => 'Фильтровать по группе шаблонов. Отобразятся только те категории устранения неполадок, которые входят в выбранную группу шаблонов.',
+	'listview'                       => 'Последний просмотр',
+	'tssteplist'                     => 'Список шагов по устранению неполадок',
+	'treeview'                       => 'Структура',
 
 	// Insert Step
-	'insertstep' => 'Insert Step',
-	'stepdetails' => 'Troubleshooter Step Details',
-	'tssubject' => 'Subject',
-	'tsdisporder' => 'Display Order',
-	'desc_tsdisporder' => 'Troubleshooter steps are sorted according to their display order number, smallest to largest.',
-	'updatestep' => 'Update Step',
-	'tslinks' => 'Parent Steps',
-	'selectonelink' => 'ERROR: Please select at least one parent step',
-	'tsaddconfirm' => 'Created troubleshooter step (%s)',
-	'editstep' => 'Edit Step',
+	'insertstep'                     => 'Добавить шаг',
+	'stepdetails'                    => 'Информация о шагах по устранению неполадок',
+	'tssubject'                      => 'Тема',
+	'tsdisporder'                    => 'Порядок отображения',
+	'desc_tsdisporder'               => 'Шаги по устранению неполадок сортируются в соответствии с номером отображения, от маленького до большого.',
+	'updatestep'                     => 'Обновить шаг',
+	'tslinks'                        => 'Родительские шаги',
+	'selectonelink'                  => 'ОШИБКА: Необходимо выбрать как минимум один родительский шаг',
+	'tsaddconfirm'                   => 'Создан шаг по устранению неполадок (%s)',
+	'editstep'                       => 'Редактировать шаг',
 
 	// Edit Step
-	'invalidtroubleshooter' => 'Invalid Troubleshooter',
-	'tsupdateconfirm' => 'Updated troubleshooter step (%s)',
-	'updatestep' => 'Update Step',
-	'editstep' => 'Edit Step',
+	'invalidtroubleshooter'          => 'Неверное устранение неполадок',
+	'tsupdateconfirm'                => 'Обновлен шаг по устранению неполадок (%s)',
+	'updatestep'                     => 'Обновить шаг',
+	'editstep'                       => 'Редактировать шаг',
 
 	// Comments
-	'comments' => 'Comments',
-	'legend' => 'Legend: ',
+	'comments'                       => 'Комментарии',
+	'legend'                         => 'Легенда: ',
 
 	// Reports
-	'views' => 'Views',
-	'steptitle' => 'Step Title',
-	
+	'views'                          => 'Просмотры',
+	'steptitle'                      => 'Название шага',
+
 	// Potentialy unused phrases in troubleshooter.php
 	'desc_tslinks' => 'Select the Parent Steps for this Step. The Troubleshooter works in a tree-based navigational manner and revolves around parent-child relationships. You can select multiple Parent Steps by pressing the CTRL Key and clicking on the Step title.',
 	'importexport' => 'Import/Export',

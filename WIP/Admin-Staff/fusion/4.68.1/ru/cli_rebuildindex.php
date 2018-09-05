@@ -5,19 +5,19 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
-$__LANG = array (
-	'emptyingindex' => 'Emptying search index',
-	'indexinfo' => 'Total posts %d, Start at: %d, End at: %d',
-	'rebuildingpost' => 'Rebuilding posts (last ID: %d) - %d',
+$__LANG = array(
+	'emptyingindex'  => 'Очистка индекса поиска',
+	'indexinfo'      => 'Всего сообщений %d, начало: %d, конец: %d',
+	'rebuildingpost' => 'Восстановление сообщений (последний ID: %d) - %d',
 );
 ?>

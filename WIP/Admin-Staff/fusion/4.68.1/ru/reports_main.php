@@ -5,64 +5,64 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 $__LANG = array(
-	'reports' => 'Reports',
+	'reports'                  => 'Отчеты',
 
-	'manage' => 'Manage',
-	'winnewreport' => 'New Report',
-	'generate' => 'Run Report',
-	'savereport' => 'Save',
+	'manage'                   => 'Управление',
+	'winnewreport'             => 'Новый отчет',
+	'generate'                 => 'Создать отчет',
+	'savereport'               => 'Сохранить',
 
-	'repnext' => 'Next',
-	'visibilitytype' => 'Visibility',
-	'lastused' => 'Last Run',
-	'reportnever' => '- Never -',
-	'quickfilter' => 'Quick Filter',
-	'treemyreports' => 'My Reports',
-	'treerecentlyused' => 'Recently Used',
-	'treecategories' => 'Categories',
-	'tabhistory' => 'History',
-	'tabschedules' => 'Schedules',
-	'tabgeneral' => 'General',
-	'reporttitle' => 'Title',
-	'desc_reporttitle' => '',
-	'repnextbutton' => 'Next &raquo;',
+	'repnext'                  => 'Далее',
+	'visibilitytype'           => 'Видимость',
+	'lastused'                 => 'Последнее создание',
+	'reportnever'              => '- Никогда -',
+	'quickfilter'              => 'Быстрый фильтр',
+	'treemyreports'            => 'Мои отчеты',
+	'treerecentlyused'         => 'Последние использованные',
+	'treecategories'           => 'Категории',
+	'tabhistory'               => 'История',
+	'tabschedules'             => 'Графики',
+	'tabgeneral'               => 'Общие',
+	'reporttitle'              => 'Название',
+	'desc_reporttitle'         => '',
+	'repnextbutton'            => 'Далее &raquo;',
 
-	'reportcategory' => 'Category',
-	'desc_reportcategory' => '',
-	'basetable' => 'Primary source',
-	'desc_basetable' => '',
+	'reportcategory'           => 'Категория',
+	'desc_reportcategory'      => '',
+	'basetable'                => 'Первичный источник',
+	'desc_basetable'           => '',
 
-	'informationbox' => 'Information',
-	'rinfocategory' => 'Category',
-	'rinfoprimarytable' => 'Primary data source',
-	'rinfopermission' => 'Visibility',
+	'informationbox'           => 'Информация',
+	'rinfocategory'            => 'Категория',
+	'rinfoprimarytable'        => 'Первичный источник',
+	'rinfopermission'          => 'Видимость',
 
-	'visible_public' => 'Public',
-	'visible_private' => 'Private',
-	'visible_team' => 'Team',
+	'visible_public'           => 'Публичный',
+	'visible_private'          => 'Приватный',
+	'visible_team'             => 'Команда',
 
-	'noreportresultfound' => 'This report didn\'t produce any results, so there is nothing to display.',
-	'back' => 'Back',
-	'print' => 'Print',
-	'mail' => 'Mail',
-	'properties' => 'Properties',
-	'editproperties' => 'Edit Report Properties',
-	'r_title' => 'Title: ',
-	'r_date' => 'Last Run: ',
+	'noreportresultfound'      => 'В этом отчете нет никаких результатов, поэтому нет данных для отображения.',
+	'back'                     => 'Назад',
+	'print'                    => 'Печать',
+	'mail'                     => 'Почта',
+	'properties'               => 'Параметры',
+	'editproperties'           => 'Редактировать параметры отчета',
+	'r_title'                  => 'Название: ',
+	'r_date'                   => 'Последнее создание: ',
 
-	'notifyreportinsert' => 'Report (%s) created',
-	'notifyreportupdate' => 'Report (%d) updated',
+	'notifyreportinsert'       => 'Создан отчет "%s"',
+	'notifyreportupdate'       => 'Сохранен отчет "%s"',
 
 	'excelvardate2' => '[h]\h m\m s\s',
 	'excelvardate3' => '[m]\m s\s',
@@ -74,17 +74,17 @@ $__LANG = array(
 	'formatcsv' => '.csv',
 	'formathtml' => '.html',
 
-	'exportas' => 'Export as',
+	'exportas'                 => 'Экспортировать как',
 
-	'enablecharts' => 'Generate charts',
-	'notifycharttoomuchdata' => 'There was too much data to build a useful chart',
-	'invalidexportformat' => 'Invalid report export format. Valid export formats are Excel, CSV and HTML.',
+	'enablecharts'             => 'Активировать графики',
+	'notifycharttoomuchdata'   => 'Слишком много данных для графиков',
+	'invalidexportformat'      => 'Неверный формат экспорта. Допустимые форматы: Excel, CSV and HTML',
 
-	'schedule' => 'Schedule Report',
-	'reportemailingproperties' => 'Schedule Report',
-	'emailingproperties' => 'Schedule Settings',
+	'schedule'                 => 'Расписание отчетов',
+	'reportemailingproperties' => 'Создать отчет о параметрах отправки Email сообщений',
+	'emailingproperties'       => 'Параметры отправки Email сообщений',
 
-	'totaldefaulttitle' => 'Total',
-	'exportdefaulttitle' => '%s - Powered by Kayako',
+	'totaldefaulttitle'        => 'Всего',
+	'exportdefaulttitle'       => '%s - Powered by Kayako %s',
 );
 ?>

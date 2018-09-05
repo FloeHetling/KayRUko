@@ -5,20 +5,20 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
-$__LANG = array (
-	'knowledgebase' => 'Knowledgebase',
-	'kbsettings' => 'Settings',
+$__LANG = array(
+	'knowledgebase'   => 'База знаний',
+	'kbsettings'      => 'Настройки',
 	'desc_kbsettings' => '',
-	'tabsettings' => 'Settings',
+	'tabsettings'     => 'Настройки',
 );
 ?>

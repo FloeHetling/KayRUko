@@ -5,18 +5,18 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 $__LANG = array(
-	'maintenance' => 'Maintenance',
-	'moveattachments' => 'Move Attachments',
+	'maintenance'     => 'Управление',
+	'moveattachments' => 'Переместить приложения',
 );
 ?>

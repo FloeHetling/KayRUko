@@ -5,33 +5,33 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 $__LANG = array(
-	'news' => 'News',
-	'categories' => 'Categories',
-	'categorytitle' => 'Category name',
-	'desc_categorytitle' => 'Enter a name for this category.',
-	'visibilitytype' => 'Visibility',
-	'desc_visibilitytype' => '<strong>Public</strong> Visible everywhere.<br /><strong>Private</strong> Only visible to staff in the staff control panel.',
-	'wininsertcategory' => 'Insert Category',
-	'wineditcategory' => 'Edit Category: %s',
-	'titlenwcatmismatch' => 'A category with the name %s already exists',
-	'msgnwcatmismatch' => 'A news category with the name %s already exists - please choose another name.',
-	'insertcategory' => 'Insert Category',
-	'tabgeneral' => 'General',
-	'titlenwcategoryinsert' => 'News category (%s) inserted',
-	'msgnwcategoryinsert' => 'The news category (%s) was inserted successfully.',
-	'titlenwcategoryupdate' => 'News category (%s) updated',
-	'msgnwcategoryupdate' => 'The news category (%s) was updated successfully.',
-	'editcategory' => 'Edit Category',
+	'news'                  => 'Новости',
+	'categories'            => 'Категории',
+	'categorytitle'         => 'Название категории',
+	'desc_categorytitle'    => 'Укажите название для этой категории.',
+	'visibilitytype'        => 'Видимость',
+	'desc_visibilitytype'   => '<strong>Публичная</strong> Видно везде.<br /><strong>Приватная</strong>Видно только персоналу на панели управления персонала.',
+	'wininsertcategory'     => 'Добавить категорию',
+	'wineditcategory'       => 'Редактировать категорию: %s',
+	'titlenwcatmismatch'    => 'Категория под названием  %s уже существует',
+	'msgnwcatmismatch'      => 'Категория новостей под названием %s уже существует - пожалуйста, выберите другое название.',
+	'insertcategory'        => 'Добавить категорию',
+	'tabgeneral'            => 'Общие',
+	'titlenwcategoryinsert' => 'Добавлена категория новостей (%s)',
+	'msgnwcategoryinsert'   => 'Категория новостей (%s) успешно добавлена.',
+	'titlenwcategoryupdate' => 'Обновлена категория новостей (%s)',
+	'msgnwcategoryupdate'   => 'Категория новостей (%s) успешно обновлена.',
+	'editcategory'          => 'Редактировать категорию',
 );
 ?>

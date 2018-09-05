@@ -5,63 +5,63 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 $__LANG = array(
-	'kqlparseerror' => 'Parse Error: %s',
+	'kqlparseerror'                        => 'Ошибка парсинга: %s',
 
 	/**
 	 * ---------------------------------------------
 	 * Table Labels
 	 * ---------------------------------------------
 	 */
-	'departments' => 'Departments',
-	'staff' => 'Staff',
-	'teams' => 'Teams',
-	'userorganizations' => 'User Organizations',
-	'usergroups' => 'User Groups',
-	'users' => 'Users',
-	'useremails' => 'User Emails',
-	'ratings' => 'Ratings',
-	'ratingresults' => 'Rating Results',
-	'taglinks' => 'Tag Links',
-	'tags' => 'Tags',
+	'departments'                          => 'Департаменты',
+	'staff'                                => 'Персонал',
+	'teams'                                => 'Команды',
+	'userorganizations'                    => 'Организации пользователей',
+	'usergroups'                           => 'Группы пользователей',
+	'users'                                => 'Пользователи',
+	'useremails'                           => 'Email пользователей',
+	'ratings'                              => 'Рейтинги',
+	'ratingresults'                        => 'Результаты рейтингов',
+	'taglinks'                             => 'Ссылки тегов',
+	'tags'                                 => 'Теги',
 
 	/**
 	 * ---------------------------------------------
 	 * Table Aliases
 	 * ---------------------------------------------
 	 */
-	'staffgroup' => 'Staff Group',
+	'staffgroup'                           => 'Группа персонала',
 
 	/**
 	 * ---------------------------------------------
 	 * Custom Labels
 	 * ---------------------------------------------
 	 */
-	'custom_tickets' => 'Tickets',
-	'custom_livechat' => 'Live Chat',
-	'custom_public' => 'Public',
-	'custom_private' => 'Private',
-	'custom_shared' => 'Shared',
-	'custom_restricted' => 'Restricted',
-	'custom_guest' => 'Guest',
-	'custom_registered' => 'Registered',
-	'custom_user' => 'User',
-	'custom_manager' => 'Manager',
-	'custom_nosalutation' => '',
-	'custom_mr' => 'Mr.',
-	'custom_ms' => 'Ms.',
-	'custom_mrs' => 'Mrs.',
-	'custom_dr' => 'Dr.',
+	'custom_tickets'                       => 'Заявки',
+	'custom_livechat'                      => 'Чат онлайн',
+	'custom_public'                        => 'Публичный',
+	'custom_private'                       => 'Приватный',
+	'custom_shared'                        => 'Совместный',
+	'custom_restricted'                    => 'Закрытый',
+	'custom_guest'                         => 'Гость',
+	'custom_registered'                    => 'Зарегистрированный',
+	'custom_user'                          => 'Пользователь',
+	'custom_manager'                       => 'Менеджер',
+	'custom_nosalutation'                  => '',
+	'custom_mr'                            => 'Господин',
+	'custom_ms'                            => 'Госпожа',
+	'custom_mrs'                           => 'Госпожа',
+	'custom_dr'                            => 'Доктор',
 
 	/**
 	 * ---------------------------------------------
@@ -70,98 +70,98 @@ $__LANG = array(
 	 */
 
 	// Departments
-	'departments_departmentid' => 'Department ID',
-	'departments_title' => 'Department',
-	'departments_departmentapp' => 'App',
-	'departments_displayorder' => 'Display Order',
-	'departments_parentdepartmentid' => 'Parent Department',
-	'departments_departmenttype' => 'Type',
+	'departments_departmentid'             => 'ID департамента',
+	'departments_title'                    => 'Департамент',
+	'departments_departmentapp'            => 'Модуль',
+	'departments_displayorder'             => 'Порядок отображения',
+	'departments_parentdepartmentid'       => 'Родительский департамент',
+	'departments_departmenttype'           => 'Тип',
 
 	// Staff
-	'staff_staffid' => 'Staff ID',
-	'staff_firstname' => 'First Name',
-	'staff_lastname' => 'Last Name',
-	'staff_fullname' => 'Full Name',
-	'staff_username' => 'Username',
-	'staff_designation' => 'Designation',
-	'staff_email' => 'Email',
-	'staff_lastvisit' => 'Last Visit',
-	'staff_isenabled' => 'Is Enabled',
-	'staff_staffgroup' => 'Team',
+	'staff_staffid'                        => 'ID сотрудника',
+	'staff_firstname'                      => 'Имя',
+	'staff_lastname'                       => 'Фамилия',
+	'staff_fullname'                       => 'Имя и фамилия',
+	'staff_username'                       => 'Имя пользователя',
+	'staff_designation'                    => 'Designation',
+	'staff_email'                          => 'Email',
+	'staff_lastvisit'                      => 'Последнее посещение',
+	'staff_isenabled'                      => 'Активирован',
+	'staff_staffgroup'                     => 'Команда',
 
 	// StaffGroup/Team
-	'staffgroup_staffgroupid' => 'Team ID',
-	'staffgroup_title' => 'Team',
-	'staffgroup_isadmin' => 'Is Admin',
+	'staffgroup_staffgroupid'              => 'ID команды',
+	'staffgroup_title'                     => 'Команда',
+	'staffgroup_isadmin'                   => 'Является администратором',
 
 	// UserOrganizations
-	'userorganizations_userorganizationid' => 'User Organization ID',
-	'userorganizations_organizationname' => 'Name',
-	'userorganizations_organizationtype' => 'Type',
-	'userorganizations_address' => 'Address',
-	'userorganizations_city' => 'City',
-	'userorganizations_state' => 'State',
-	'userorganizations_postalcode' => 'Postal code/zip',
-	'userorganizations_country' => 'Country',
-	'userorganizations_phone' => 'Phone',
-	'userorganizations_fax' => 'Fax',
-	'userorganizations_website' => 'Website',
-	'userorganizations_dateline' => 'Creation Date',
-	'userorganizations_lastupdate' => 'Last Update',
-	'userorganizations_slaplanid' => 'SLA Plan',
-	'userorganizations_slaexpirytimeline' => 'SLA Expiry',
-	'userorganizations_usergroupid' => 'User Group',
+	'userorganizations_userorganizationid' => 'ID организации пользователей',
+	'userorganizations_organizationname'   => 'Название',
+	'userorganizations_organizationtype'   => 'Тип',
+	'userorganizations_address'            => 'Адрес',
+	'userorganizations_city'               => 'Город',
+	'userorganizations_state'              => 'Область',
+	'userorganizations_postalcode'         => 'Почтовый код',
+	'userorganizations_country'            => 'Страна',
+	'userorganizations_phone'              => 'Телефон',
+	'userorganizations_fax'                => 'Факс',
+	'userorganizations_website'            => 'Вебсайт',
+	'userorganizations_dateline'           => 'Дата создания',
+	'userorganizations_lastupdate'         => 'Последнее обновление',
+	'userorganizations_slaplanid'          => 'SLA план',
+	'userorganizations_slaexpirytimeline'  => 'Истечение срока действия SLA',
+	'userorganizations_usergroupid'        => 'Группа пользователей',
 
 	// UserGroups
-	'usergroups_usergroupid' => 'User Group ID',
-	'usergroups_title' => 'User Group',
-	'usergroups_grouptype' => 'User Group Type',
+	'usergroups_usergroupid'               => 'ID группы пользователей',
+	'usergroups_title'                     => 'Группа пользователей',
+	'usergroups_grouptype'                 => 'Тип группы пользователей',
 
 	// Users
-	'users_userid' => 'User ID',
-	'users_usergroupid' => 'User Group',
-	'users_userorganizationid' => 'User Organization',
-	'users_userrole' => 'Role',
-	'users_salutation' => 'Salutation',
-	'users_fullname' => 'Full Name',
-	'users_userdesignation' => 'Designation',
-	'users_phone' => 'Phone',
-	'users_dateline' => 'Creation Date',
-	'users_lastupdate' => 'Last Update',
-	'users_lastvisit' => 'Last Visit',
-	'users_slaplanid' => 'SLA Plan',
-	'users_slaexpirytimeline' => 'SLA Expiry',
-	'users_userexpirytimeline' => 'Expiry',
-	'users_isvalidated' => 'Is Validated',
+	'users_userid'                         => 'ID пользователя',
+	'users_usergroupid'                    => 'Группа пользователей',
+	'users_userorganizationid'             => 'Организация пользователей',
+	'users_userrole'                       => 'Роль',
+	'users_salutation'                     => 'Приветствие',
+	'users_fullname'                       => 'Имя и фамилия',
+	'users_userdesignation'                => 'Должность',
+	'users_phone'                          => 'Телефон',
+	'users_dateline'                       => 'Дата создания',
+	'users_lastupdate'                     => 'Последнее обновление',
+	'users_lastvisit'                      => 'Последнее посещение',
+	'users_slaplanid'                      => 'SLA план',
+	'users_slaexpirytimeline'              => 'Истечение срока действия SLA',
+	'users_userexpirytimeline'             => 'Истечение срока действия',
+	'users_isvalidated'                    => 'Утвержден',
 
 	// UserEmails
-	'useremails_useremailid' => 'User Email ID',
-	'useremails_linktypeid' => 'User',
-	'useremails_email' => 'Email',
+	'useremails_useremailid'               => 'ID адресов Email пользователя',
+	'useremails_linktypeid'                => 'Пользователь',
+	'useremails_email'                     => 'Email',
 
 	// Ratings
-	'custom_benchtickets' => 'Tickets',
-	'custom_benchticketposts' => 'Ticket Posts',
-	'custom_benchchatsurvey' => 'Chat Survey',
-	'custom_benchchathistory' => 'Chat History',
-	'ratings_ratingid' => 'Rating ID',
-	'ratings_ratingtitle' => 'Title',
-	'ratings_ratingtype' => 'Type',
-	'ratings_ratingvisibility' => 'Visibility',
+	'custom_benchtickets'                  => 'Заявки',
+	'custom_benchticketposts'              => 'Сообщения в заявке',
+	'custom_benchchatsurvey'               => 'Опрос в чате',
+	'custom_benchchathistory'              => 'История чата',
+	'ratings_ratingid'                     => 'ID рейтинга',
+	'ratings_ratingtitle'                  => 'Название',
+	'ratings_ratingtype'                   => 'Тип',
+	'ratings_ratingvisibility'             => 'Видимость',
 
 	// RatingResults
-	'ratingresults_ratingresultid' => 'Rating Result ID',
-	'ratingresults_dateline' => 'Rating Date',
-	'ratingresults_ratingresult' => 'Score',
-	'ratingresults_ratingid' => 'Rating',
+	'ratingresults_ratingresultid'         => 'ID результата рейтинга',
+	'ratingresults_dateline'               => 'Дата рейтинга',
+	'ratingresults_ratingresult'           => 'Счет',
+	'ratingresults_ratingid'               => 'Рейтинг',
 
 	// TagLinks
-	'taglinks_taglinkid' => 'Tag Link ID',
-	'taglinks_tagid' => 'Tag',
+	'taglinks_taglinkid'                   => 'ID ссылки тега',
+	'taglinks_tagid'                       => 'Тег',
 
 	// Tags
-	'tags_tagid' => 'Tag ID',
-	'tags_tagname' => 'Name',
+	'tags_tagid'                           => 'ID тега',
+	'tags_tagname'                         => 'Название',
 
 );
 ?>

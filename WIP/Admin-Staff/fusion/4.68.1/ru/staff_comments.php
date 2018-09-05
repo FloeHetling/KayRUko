@@ -5,30 +5,30 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 $__LANG = array(
-	'comments' => 'Comments',
-	'manage' => 'Manage',
-	'commentstatus' => 'Status',
-	'commentpending' => 'Pending',
-	'commentapproved' => 'Approved',
-	'commentspam' => 'Spam',
-	'quickfilter' => 'Quick Filter',
-	'author' => 'Author',
-	'comments' => 'Comments',
-	'date' => 'Date',
-	'inresponseto' => 'In response to: ',
-	'approve' => 'Approve',
-	'spam' => 'Spam',
-	'notspam' => 'Not Spam',
+	'comments'        => 'Комментарии',
+	'manage'          => 'Управление',
+	'commentstatus'   => 'Статус',
+	'commentpending'  => 'Ожидающие',
+	'commentapproved' => 'Утвержденные',
+	'commentspam'     => 'Спам',
+	'quickfilter'     => 'Быстрый фильтр',
+	'author'          => 'Автор',
+	'comments'        => 'Комментарии',
+	'date'            => 'Дата',
+	'inresponseto'    => 'В ответ на: ',
+	'approve'         => 'Утвердить',
+	'spam'            => 'Спам',
+	'notspam'         => 'Не спам',
 );
 ?>

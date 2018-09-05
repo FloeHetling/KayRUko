@@ -5,29 +5,29 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 $__LANG = array(
-	'news' => 'News',
-	'importexport' => 'Import/Export',
-	'tabexport' => 'Export',
-	'tabimport' => 'Import',
-	'export' => 'Export',
-	'import' => 'Import',
-	'tgroupany' => '-- All Groups --',
-	'filtertgroup' => 'Filter by template group',
-	'desc_filtertgroup' => 'Export the subscribers from this template group.',
-	'importemails' => 'Email addresses to import (separate multiple values using a comma)',
-	'generationdate' => 'XML Generated On: %s',
-	'titlesubscriberimport' => 'Imported %d subscribers',
-	'msgsubscriberimport' => 'Kayako has successfully imported "%d" news subscriber(s).',
+	'news'                  => 'Новости',
+	'importexport'          => 'Импорт/Экспорт',
+	'tabexport'             => 'Экспорт',
+	'tabimport'             => 'Импорт',
+	'export'                => 'Экспорт',
+	'import'                => 'Импорт',
+	'tgroupany'             => '-- Все группы	--',
+	'filtertgroup'          => 'Фильтрация по группе шаблонов',
+	'desc_filtertgroup'     => 'Вы можете фильтрировать результаты экспорта в отдельную группу шаблонов, предварительно выбирав ее из предоставленных вариантов.',
+	'importemails'          => 'Email адреса (Для разделения нескольких значений, используйте ,)',
+	'generationdate'        => 'XML сгенерированный на: %s',
+	'titlesubscriberimport' => 'Импортировал "%d" пользователя',
+	'msgsubscriberimport'   => 'Kayako успешно импортировал "%d" новых пользователей.',
 );
 ?>

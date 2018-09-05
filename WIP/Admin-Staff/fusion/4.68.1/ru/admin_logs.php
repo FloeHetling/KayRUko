@@ -5,58 +5,58 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 $__LANG = array (
 	// ======= BEGIN v4 LOCALES =======
-	'accreated' => 'CREATED',
-	'acupdated' => 'UPDATED',
-	'acdeleted' => 'DELETED',
-	'acother' => 'OTHER',
-	'errorlog' => 'Error Log',
-	'logs' => 'Logs',
-	'loginlog' => 'Login Log',
-	'stafftitle' => 'Staff',
-	'logindateline' => 'Login',
-	'logoutdateline' => 'Logout',
-	'activitydateline' => 'Last Activity',
-	'ipaddress'=> 'IP Address',
-	'notavailable' => '- NA -',
-	'useragent' => 'User Agent:',
-	'forwardedipaddress' => 'Alternate IP:',
-	'interfacetype' => 'Interface',
-	'interface_admin' => 'Admin',
-	'interface_staff' => 'Staff',
-	'interface_winapp' => 'Winapp',
+	'accreated'            => 'СОЗДАНО',
+	'acupdated'            => 'ОБНОВЛЕНО',
+	'acdeleted'            => 'УДАЛЕНО',
+	'acother'              => 'ДРУГОЕ',
+	'errorlog'             => 'Лог ошибок',
+	'logs'                 => 'Журналы регистрации',
+	'loginlog'             => 'Журнал регистрации доступа',
+	'stafftitle'           => 'Имя сотрудника',
+	'logindateline'        => 'Вход в систему',
+	'logoutdateline'       => 'Выход из системы',
+	'activitydateline'     => 'Последняя активность',
+	'ipaddress'            => 'IP адрес',
+	'notavailable'         => '- Нет данных -',
+	'useragent'            => 'Идентификатор браузера:',
+	'forwardedipaddress'   => 'Внешний IP:',
+	'interfacetype'        => 'Роль',
+	'interface_admin'      => 'Администратор',
+	'interface_staff'      => 'Персонал',
+	'interface_winapp'     => 'Winapp',
 	'interface_instaalert' => 'InstaAlert',
-	'interface_syncworks' => 'SyncWorks',
-	'interface_tests' => 'Tests',
-	'interface_rss' => 'RSS',
-	'interface_api' => 'API',
-	'interface_pda' => 'Phone',
-	'titleloginfailure' => 'Login Failure Logged',
-	'msgloginfailure' => 'Kayako has detected login failures since your last login.',
-	'activitylog' => 'Activity Log',
-	'logdetails' => 'Log Details',
-	'logdateline' => 'Log Date',
-	'errorlog_database' => 'Database',
-	'errorlog_exception' => 'Exception',
-	'errorlog_phperror' => 'PHP',
-	'errorlog_exception' => 'Exception',
-	'errorlog_mailerror' => 'Mail Error',
-	'errorlog_general' => 'General',
-	'errorlog_loginshare' => 'LoginShare',
-	'errortype' => 'Error Type',
-	'errordetails' => 'Error Details',
-	'errordate' => 'Date',
+	'interface_syncworks'  => 'SyncWorks',
+	'interface_tests'      => 'Тесты',
+	'interface_rss'        => 'RSS',
+	'interface_api'        => 'API',
+	'interface_pda'        => 'Телефон',
+	'titleloginfailure'    => 'Обнаружены ошибки доступа',
+	'msgloginfailure'      => 'Kayako обнаружил ошибки доступа с момента Вашей последей регистрации. Это могут быть попытки неавтоизованного проникновения в систему.',
+	'activitylog'          => 'Журнал регистрации операций',
+	'logdetails'           => 'Информация о записи',
+	'logdateline'          => 'Дата записи',
+	'errorlog_database'    => 'База данных',
+	'errorlog_exception'   => 'Исключение',
+	'errorlog_phperror'    => 'PHP',
+	'errorlog_exception'   => 'Исключение',
+	'errorlog_mailerror'   => 'Ошибка электронной почты',
+	'errorlog_general'     => 'Общие',
+	'errorlog_loginshare'  => 'LoginShare',
+	'errortype'            => 'Вид ошибки',
+	'errordetails'         => 'Детали ошибки',
+	'errordate'            => 'Дата',
 	// ======= END v4 LOCALES =======
 );
 ?>

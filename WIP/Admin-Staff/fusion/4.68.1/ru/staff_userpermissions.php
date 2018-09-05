@@ -5,29 +5,29 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 $__LANG = array (
 	// ======= SWIFT GENERAL =======
-	'perm_'.APP_CORE => 'Permissions: SWIFT General',
-	'perm_canpostcomment' => 'Can post comments (on knowledgebase, news articles etc)',
+	'perm_' . APP_CORE         => 'Доступ: Новости',
+	'perm_canpostcomment'      => 'Может отставлять комментарии (в базе знаний, к статьям новостей, и т.д.)',
 
 	// ======= TICKETS =======
-	'perm_'.APP_TICKETS => 'Permissions: Tickets',
-	'perm_cansubmitticket' => 'Can submit new tickets',
-	'perm_canchangepriorities' => 'Can change own ticket\'s status and priority',
+	'perm_' . APP_TICKETS      => 'Доступ: Новости',
+	'perm_cansubmitticket'     => 'Может отправлять новые заявки',
+	'perm_canchangepriorities' => 'Может изменять статус и приоритет своих заявок',
 
 	// ======= NEWS =======
-	'perm_'.APP_NEWS => 'Permissions: News',
-	'perm_cansubscribenews' => 'Can subscribe to news',
+	'perm_' . APP_NEWS         => 'Доступ: Новости',
+	'perm_cansubscribenews'    => 'Может подписываться на получение новостей',
 
 	// Potentialy unused phrases in staff_users.php
 	'updateorg' => 'Update Organization',

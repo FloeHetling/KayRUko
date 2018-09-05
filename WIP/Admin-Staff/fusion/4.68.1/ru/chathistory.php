@@ -5,49 +5,49 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
-$__LANG = array (
-	'chatnoanswer' => ' (unanswered)',
-	'notansweredchat' => 'Unanswered chat',
+$__LANG = array(
+	'chatnoanswer'            => ' (Оставшийся без ответа)',
+	'notansweredchat'         => 'Оставшийся без ответа чат',
 
-	'datefilter' => 'Date filter',
-	'chathistory' => 'Chat history',
-	'staffname' => 'Staff name',
-	'chatdepartment' => 'Department',
-	'duration' => 'Duration: ',
-	'chatlist' => 'Chat history list',
-	'legend' => 'Legend: ',
-	'userchat' => 'User to staff chat',
-	'staffchat' => 'Staff to staff chat',
-	'chatobjectdelconfirm' => 'Chats deleted successfully',
-	'chatobjectdelconfirmmsg' => 'Are you sure you wish to delete this chat? This will result in the permanent deletion of this chat log.',
-	'invalidchatobject' => 'Unable to load chat. Make sure that the chat exist and that you have permissions for its department.',
-	'viewchat' => 'View chat',
-	'viewchatd' => 'View chat: %d',
-	'chatid' => 'Chat ID',
-	'chatidd' => 'Chat ID: %d',
-	'chatinformation' => 'Chat information',
-	'chfullname' => 'Name: ',
-	'chemail' => 'Email: ',
-	'chdate' => 'Date: ',
-	'chduration' => 'Duration: ',
-	'chstaff' => 'Staff: ',
-	'chdepartment' => 'Department: ',
-	'chtransferstatus' => 'Was transferred?: ',
-	'chtransferfrom' => 'Transferred from: ',
-	'chipaddress' => 'IP address of user: ',
-	'chchattype' => 'Chat type: ',
-	'chconversation' => 'Conversation',
-	'chatoptions' => 'Chat Options',
-	'deletechat' => 'Delete Chat',
+	'datefilter'              => 'фильтр даты',
+	'chathistory'             => 'История чата',
+	'staffname'               => 'Имя сотрудника',
+	'chatdepartment'          => 'Департамент',
+	'duration'                => 'Длительность: ',
+	'chatlist'                => 'История чата',
+	'legend'                  => 'Легенда: ',
+	'userchat'                => 'Пользователь на чат сотрудника',
+	'staffchat'               => 'Сотрудник на чат сотрудника',
+	'chatobjectdelconfirm'    => 'Записи истории чата успешно удалены',
+	'chatobjectdelconfirmmsg' => 'Вы уверены, что хотите удалить эту запись истории чата? Удаление элемента приведет к полному уничтожению всех записей в журнале регистрации по этой сессии чата. Последствия этого действия  необратимы!',
+	'invalidchatobject'       => 'Неверный <b>объект чата</b>. Убедитесь, что такой объект чата существует и что у вас есть право доступа в этот департамент.',
+	'viewchat'                => 'Просмотреть чат',
+	'viewchatd'               => 'Просмотреть чат: %d',
+	'chatid'                  => 'ID чата',
+	'chatidd'                 => 'ID чата: %d',
+	'chatinformation'         => 'Информация о чате',
+	'chfullname'              => 'Имя и фамилия: ',
+	'chemail'                 => 'Email: ',
+	'chdate'                  => 'Дата: ',
+	'chduration'              => 'Продолжительность ',
+	'chstaff'                 => 'Сотрудник: ',
+	'chdepartment'            => 'Департамент: ',
+	'chtransferstatus'        => 'Был передан?: ',
+	'chtransferfrom'          => 'Был передан от : ',
+	'chipaddress'             => 'IP адрес: ',
+	'chchattype'              => 'Тип чата: ',
+	'chconversation'          => 'Разговор',
+	'chatoptions'             => 'Опции чата',
+	'deletechat'              => 'Удалить чат',
 );
 ?>

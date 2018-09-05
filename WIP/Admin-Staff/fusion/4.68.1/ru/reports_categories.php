@@ -5,25 +5,25 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 $__LANG = array(
-	'categories' => 'Categories',
-	'wininsertcategory' => 'Insert Category',
-	'wineditcategory' => 'Edit Category: %s',
+	'categories'                 => 'Категории',
+	'wininsertcategory'          => 'Добавить категорию',
+	'wineditcategory'            => 'Редактировать категорию: %s',
 
-	'tabgeneral' => 'General',
-	'categorytitle' => 'Category title',
+	'tabgeneral'                 => 'Общие',
+	'categorytitle'              => 'Название',
 
-	'notifyreportcategoryinsert' => 'Category %s created',
-	'notifyreportcategoryupdate' => 'Updated category %s',
+	'notifyreportcategoryinsert' => 'Созданная категория "%s"',
+	'notifyreportcategoryupdate' => 'Обновлено "%s"',
 );
 ?>

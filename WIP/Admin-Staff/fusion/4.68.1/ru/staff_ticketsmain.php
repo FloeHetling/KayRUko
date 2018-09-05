@@ -5,26 +5,26 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 $__LANG = array(
-	'tickets' => 'Tickets',
-	'overdue' => 'Overdue',
-	'unassigned' => '-- Unassigned --',
-	'unassigned2' => 'Unassigned',
-	'menuviews' => 'View: %s',
-	'merge' => 'Merge',
-	'trash' => 'Trash',
-	'spam' => 'Spam',
-	'watch' => 'Watch',
+	'tickets'                   => 'Заявки',
+	'overdue'                   => 'Просроченные',
+	'unassigned'                => '-- Не назначенные --',
+	'unassigned2'               => 'Не назначенные',
+	'menuviews'                 => 'Вид: %s',
+	'merge'                     => 'Объединить',
+	'trash'                     => 'В корзину',
+	'spam'                      => 'Спам',
+	'watch'                     => 'Посмотреть',
 	/*
 	* BUG FIX - Saloni Dhall
 	*
@@ -32,90 +32,90 @@ $__LANG = array(
 	*
 	* Comments: None
 	*/
-	'reply' => 'Reply',
-	'qticketpost' => 'Quote this post',
+	'reply'                     => 'Ответить',
+	'qticketpost'               => 'Цитировать это сообщение',
 
 	// Tree
-	'treeinbox' => 'Inbox',
-	'treetrash' => 'Trash',
-	'treewatched' => 'Watched',
-	'treeflagged' => 'Flagged',
-	'treemytickets' => 'My Tickets',
-	'treeunassigned' => 'Unassigned',
+	'treeinbox'                 => 'Входящая почта',
+	'treetrash'                 => 'Корзина',
+	'treewatched'               => 'Просмотренные',
+	'treeflagged'               => 'Отмеченные',
+	'treemytickets'             => 'Мои заявки',
+	'treeunassigned'            => 'Не назначенные',
 
 	// Grid Titles
-	'f_ticketid' => 'Ticket ID',
-	'f_subject' => 'Subject',
-	'f_queue' => 'Email Queue',
-	'f_department' => 'Department',
-	'f_ticketstatus' => 'Status',
-	'f_duedate' => 'Reply Due',
-	'f_lastactivity' => 'Last Activity',
-	'f_date' => 'Date',
-	'f_owner' => 'Owner',
-	'f_priority' => 'Priority',
-	'f_lastreplier' => 'Last Replier',
-	'f_fullname' => 'Name',
-	'f_timeworked' => 'Time Worked',
-	'f_email' => 'Email',
-	'f_totalreplies' => 'Replies',
-	'f_assignstatus' => 'Assigned',
-	'f_flagtype' => 'Flag',
-	'f_laststaffreply' => 'Staff Update',
-	'f_lastuserreply' => 'User Update',
-	'f_tgroup' => 'Template Group',
-	'f_slaplan' => 'SLA Plan',
-	'f_usergroup' => 'User Group',
-	'f_userorganization' => 'Organization',
-	'f_escalationrule' => 'Escalation Rule',
-	'f_escalatedtime' => 'Escalated Time',
-	'f_resolutiondue' => 'Resolution Due',
-	'f_type' => 'Type',
-	'f_typeicon' => 'Type (Icon)',
+	'f_ticketid'                => 'ID заявки',
+	'f_subject'                 => 'Тема',
+	'f_queue'                   => 'Очередь ожидания Email',
+	'f_department'              => 'Департамент',
+	'f_ticketstatus'            => 'Статус',
+	'f_duedate'                 => 'Ответ',
+	'f_lastactivity'            => 'Последняя активность',
+	'f_date'                    => 'Дата',
+	'f_owner'                   => 'Владелец',
+	'f_priority'                => 'Приоритет',
+	'f_lastreplier'             => 'Последний ответивший',
+	'f_fullname'                => 'Имя',
+	'f_timeworked'              => 'Отработанное время',
+	'f_email'                   => 'Email',
+	'f_totalreplies'            => 'Ответы',
+	'f_assignstatus'            => 'Назначено',
+	'f_flagtype'                => 'Флаг',
+	'f_laststaffreply'          => 'Обновление персонала',
+	'f_lastuserreply'           => 'Обновление пользователя',
+	'f_tgroup'                  => 'Группа шаблонов',
+	'f_slaplan'                 => 'SLA план',
+	'f_usergroup'               => 'Группа пользователей',
+	'f_userorganization'        => 'Организация',
+	'f_escalationrule'          => 'Правило эскалации',
+	'f_escalatedtime'           => 'Время эскалации',
+	'f_resolutiondue'           => 'Время решения',
+	'f_type'                    => 'Тип',
+	'f_typeicon'                => 'Тип (Значок)',
 
 	// Creation Modes
-	'cm_api' => 'API',
-	'cm_email' => 'Email',
-	'cm_sitebadge' => 'Site Badge',
-	'cm_staffcp' => 'Staff CP',
-	'cm_supportcenter' => 'Support Center',
+	'cm_api'                    => 'API',
+	'cm_email'                  => 'Email',
+	'cm_sitebadge'              => 'Бадж-значок сайта',
+	'cm_staffcp'                => 'ПУ Персонала',
+	'cm_supportcenter'          => 'Центр поддержки',
 
 	// Ticket listing icon description tags
-	'alt_hasattachments' => 'Has attachments',
-	'alt_isescalated' => 'This ticket has gone overdue and has been escalated',
-	'alt_raisedbyemail' => 'Raised by email',
-	'alt_linkedticket' => 'This ticket is linked to another',
-	'alt_followupset' => 'A follow up item has been set for this ticket',
-	'alt_assignedotyou' => 'Assigned to you',
-	'alt_watchingticket' => 'You are watching this ticket',
-	'alt_ticketlocked' => 'This ticket is being viewed by another staff',
-	'alt_ticketphonetype' => 'This ticket has been marked as a phone type ticket',
-	'alt_ticketunread' => 'An update has been made to this ticket since you last visited',
-	'alt_tickethastimetracking' => 'This ticket has a time tracking entry',
-	'alt_tickethasnote' => 'This ticket has one or more ticket notes',
-	'alt_tickethasbilling' => 'This ticket has a time tracking and billing entry',
+	'alt_hasattachments'        => 'С вложениями',
+	'alt_isescalated'           => 'Эта заявка просрочена и была передана высшей инстанции',
+	'alt_raisedbyemail'         => 'Создана через email',
+	'alt_linkedticket'          => 'Эта заявка связана с другой',
+	'alt_followupset'           => 'Для этой заявки было запланировано ожидающее действе ',
+	'alt_assignedotyou'         => 'Назначено Вам',
+	'alt_watchingticket'        => 'Вы просматриваете эту заявку',
+	'alt_ticketlocked'          => 'Эту заявку просматривал другой сотрудник',
+	'alt_ticketphonetype'       => 'Эта заявка отмечена как заявка телефонного типа',
+	'alt_ticketunread'          => 'С момента Вашего последнего входа заявка была обновлена',
+	'alt_tickethastimetracking' => 'В этой заявке есть запись об отслеживании времени',
+	'alt_tickethasnote'         => 'В этой заявке есть одна или несколько заметок',
+	'alt_tickethasbilling'      => 'В этой заявке есть запись об отслеживании времени и биллинге',
 
 	// Potentialy unused phrases in staff_ticketsmain.php
-	'filtertickets' => 'Filter Tickets',
+	'filtertickets'             => 'Filter Tickets',
 
 	// Ticket Copy/Split
-	'closeold'                  => 'Close old ticket',
-	'closeold_d'                => 'Close the old ticket (split from) after splitting this ticket.',
-	'splitat'                   => 'Split at reply',
-	'splitat_d'                 => 'This reply, and all replies made after it, will belong to the new ticket.',
-	'split_into'                => 'Split into ticket',
-	'split_from'                => 'Split from ticket',
-	'duplicateat'               => 'Duplicate at reply',
-	'duplicateat_d'             => 'This reply, and all replies made after it, will be duplicated to the new ticket.',
-	'duplicate_into'            => 'Duplicate into ticket',
-	'duplicate_from'            => 'Duplicate from ticket',
-	'ticketsplitter'            => 'Ticket Splitter',
-	'no_such_post'              => 'Couldn\'t identify the post at which to split.',
-	'oldticket'                 => 'Old Ticket',
-	'newticket'                 => 'New Ticket',
-	'split'                     => 'Split',
-	'duplicate'                 => 'Duplicate',
-	'splitticket'               => 'Split Ticket',
-	'duplicateticket'           => 'Duplicate Ticket'
+	'closeold'                  => 'Закрыть старую заявку',
+	'closeold_d'                => 'Закрыть старую заявку после разделения.',
+	'splitat'                   => 'Разделить, начиная с сообщения',
+	'splitat_d'                 => 'Это сообщение и все сообщения, появившиеся после него, будут относиться к новой заявке.',
+	'split_into'                => 'Разделить в заявке',
+	'split_from'                => 'Отделить от заявки',
+	'duplicateat'               => 'Дублировать в ответ',
+	'duplicateat_d'             => 'Этот ответ и все ответы, сделанные после него, будет дублироваться в новую заявку.',
+	'duplicate_into'            => 'Дублировать в заявке',
+	'duplicate_from'            => 'Дублировать из заявки',
+	'ticketsplitter'            => 'Разделитель заявок',
+	'no_such_post'              => 'Не удается идентифицировать сообщение для разделения.',
+	'oldticket'                 => 'Старая заявка',
+	'newticket'                 => 'Новая заявка',
+	'split'                     => 'Разделить',
+	'duplicate'                 => 'Дублировать',
+	'splitticket'               => 'Разделить заявку',
+	'duplicateticket'           => 'Копировать завку'
 );
 ?>

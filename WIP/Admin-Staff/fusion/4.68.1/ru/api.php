@@ -5,30 +5,30 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
-$__LANG = array (
-	'invaliddatareceived' => 'Invalid or malformed data received; unable to proceed.',
-	'errordataprocess' => 'The API sub system received mailformed data after function execution; unable to proceed.',
-	'invalidemail' => 'Invalid email address. Please check the syntax of the email address.',
+$__LANG = array(
+	'invaliddatareceived'           => 'Получена неверная или искаженная информация; невозможно продолжить.',
+	'errordataprocess'              => 'Подсистема API получила данные формирования письма после выполнения функции; не удается продолжить.',
+	'invalidemail'                  => 'Неверный email. Пожалуйста, проверьте синтаксис email адреса.',
 
 	// ======= CORE =======
-	'staffusernameexists' => 'Unable to insert or update staff user. A staff user with the same username already exists.',
-	'staffdoesnotexist' => 'The staff user does not exist',
-	'staffgroupdoesnotexist' => 'The staff group does not exist',
-	'settingdoesnotexist' => 'The specified setting field does not exist',
-	'departmentmodmismatch' => 'The department app specified for the parent department %s (%s) does not match the app specified (%s)',
-	'departmentmultipleparenterror' => SWIFTPRODUCT.' allows only single level sub-departments. You cannot assign to an existing sub-department',
-	'errorinvaliddepartment' => 'The department does not exist',
-	'errorinvalidparentdepartment' => 'The parent department does not exist',
+	'staffusernameexists'           => 'Невозможно добавить/обновить сотрудника. В системе уже существует сотрудник с таким именем.',
+	'staffdoesnotexist'             => 'Такой сотрудник не существует в системе',
+	'staffgroupdoesnotexist'        => 'Такая группа сотрудников не существует в системе',
+	'settingdoesnotexist'           => 'Указанная настройка не существует в системе',
+	'departmentmodmismatch'         => 'Модуль департамента указанный для родительского департамента %s (%s)  не совпадает с указанным модулем (%s).',
+	'departmentmultipleparenterror' => SWIFTPRODUCT . ' позволяет только одноуровневые поддепартаменты. Вы не можете быть закрепленным за существующим поддепартаментом.',
+	'errorinvaliddepartment'        => 'Департамент не существует',
+	'errorinvalidparentdepartment'  => 'Родительский департамент не существует',
 	// ======= TICKETS =======
 );
 ?>

@@ -5,90 +5,90 @@
  * SWIFT Framework
  * _______________________________________________
  *untranslated
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 $__LANG = array(
-	'autoclose' => 'Auto Close',
-	'manage' => 'Manage',
-	'targetstatus' => 'Status to change to',
-	'tabgeneral' => 'General',
+	'autoclose'                    => 'Автоматическое закрытие',
+	'manage'                       => 'Управлять',
+	'targetstatus'                 => 'Целевой статус',
+	'tabgeneral'                   => 'Общие',
 
-	'insertrule' => 'Insert Rule',
-	'editrule' => 'Edit Rule',
+	'insertrule'                   => 'Вставить правило',
+	'editrule'                     => 'Редактировать правило',
 
-	'ruletitle' => 'Rule title',
-	'desc_ruletitle' => 'Enter a title for this auto close rule.',
-	'targetticketstatus' => 'Change status to',
-	'desc_targetticketstatus' => 'Once the inactivity time has passed (see below), tickets matching this rule will be set to this status (this should be a <strong>resolved</strong> status).',
-	'inactivitythreshold' => 'Inactivity threshold',
-	'desc_inactivitythreshold' => 'If no update is made to a ticket within this number of hours, the ticket will be considered to be inactive. This is the first step towards automatically closing a ticket.',
-	'closurethreshold' => 'Closure threshold',
-	'desc_closurethreshold' => 'If a ticket has been marked as inactive and still no update is received within this number of hours, the ticket will be automatically set to the status you specified above.',
-	'isenabled' => 'Rule is enabled',
-	'desc_isenabled' => 'Toggle whether this rule is enabled or not.',
-	'sortorder' => 'Execution order',
-	'desc_sortorder' => 'It is possible to create multiple auto close rules. The execution order determines which rules are executed first, smallest to largest.',
-	'sendpendingnotification' => 'Send inactivity notifiction email',
-	'desc_sendpendingnotification' => 'The helpdesk can notify the user that their ticket has been marked as inactive and if no reply is received, will be closed.',
-	'sendfinalnotification' => 'Send final ticket closed notification email',
-	'desc_sendfinalnotification' => 'The helpdesk can also notify the user that their ticket has been closed.',
-	'suppresssurveyemail' => 'Suppress customer survey email',
-	'desc_suppresssurveyemail' => 'If you have enabled customer satisfaction survey invitations when a ticket is set to the status specified above, you may wish to prevent the helpdesk from sending a survey invitation for automatically closed tickets.',
+	'ruletitle'                    => 'Название правила',
+	'desc_ruletitle'               => 'Введите название вашего правила автоматического закрытия.',
+	'targetticketstatus'           => 'Целевой статус',
+	'desc_targetticketstatus'      => 'Укажите статус который будет присвоен заявке как только время обозначенное для заявки, истечет.',
+	'inactivitythreshold'          => 'Неактивность (количество часов)',
+	'desc_inactivitythreshold'     => 'Введите количество часов, по истечению которых заявка перейдет в статус неактивности. Это первый этап атоматического закрытия заявки, который, как правило, используется для предупрежения пользователя о предстоящем закрытии заявки.',
+	'closurethreshold'             => 'Закрытие (количество часов)',
+	'desc_closurethreshold'        => 'Введите количество часов, по истечению которых <i>неактивная</i> заявка перейдет в статус решенной. Это окончательный этап автоматического закрытия заявки, который инициирует уведомление об окончательном закрытии и изменение статуса заявки.',
+	'isenabled'                    => 'Включить?',
+	'desc_isenabled'               => 'Переключите действие этого правила автоматического закрытия, включая/выключая эту опцию.',
+	'sortorder'                    => 'Порядок сортировки',
+	'desc_sortorder'               => 'Укажите порядок сортировки для этого правила. Правила всегда воспроизводятся в порядке возрастания.',
+	'sendpendingnotification'      => 'Отправить уведомление о предстоящем закрытии',
+	'desc_sendpendingnotification' => 'Если эта опция включена, система предупредит клиента о предстоящем закрытии заявки. Это уведомление инициируется, если заявка не обновлялась количество часов, равных периоду неактивности, указанному выше.',
+	'sendfinalnotification'        => 'Отправить уведомление об окончательном закрытии',
+	'desc_sendfinalnotification'   => 'Если эта опция включена, система предупредит клиента об окончательном закрытии заявки. Это уведомление инициируется, если заявка неактивна количество часов, указанных выше для закрытия заявки и после того, как статус заявки был изменен.',
+	'suppresssurveyemail'          => 'Блокировать рассылку опроса клиентов',
+	'desc_suppresssurveyemail'     => 'Если вы активировали рассылку опроса клиентов, когда заявка приобрела статус закрытой, вам может потребоваться отключить эту опцию для автоматически закрытых заявок. Если эта опция активирована, система не будет делать рассылку для автоматически закрытых заявок.',
 
-	'insertcriteria' => 'Insert Criteria',
+	'insertcriteria'               => 'Добавить критерии',
 
 
-	'titleautocloseruledel' => 'Auto close rules deleted (%d)',
-	'msgautocloseruledel' => 'The following auto close rules were deleted:',
-	'titleautocloseruleenable' => 'Auto close rules enabled (%d)',
-	'msgautocloseruleenable' => 'The following auto close rules were enabled:',
-	'titleautocloseruledisable' => 'Auto close rules disabled (%d)',
-	'msgautocloseruledisable' => 'The following auto close rules were disabled:',
-	'titleautocloseruleinsert' => 'Auto close rule created',
-	'msgautocloseruleinsert' => 'The auto close rule (%s) was created successfully.',
-	'titleautocloseruleupdate' => 'Auto close rule updated',
-	'msgautocloseruleupdate' => 'The auto close rule (%s) was updated successfully.',
+	'titleautocloseruledel'        => 'Удалено "%d" правило автоматического закрытия',
+	'msgautocloseruledel'          => 'Следующее правило автоматического закрытия было успешно удалено из базы данных:',
+	'titleautocloseruleenable'     => 'Активировано "%d" правило автоматического закрытия',
+	'msgautocloseruleenable'       => 'Следующее правило автоматического закрытия было успешно активировано:',
+	'titleautocloseruledisable'    => 'Деактивировано "%d" правило автоматического закрытия',
+	'msgautocloseruledisable'      => 'Следующее правило автоматического закрытия было успешно деактивировано:',
+	'titleautocloseruleinsert'     => 'Добавлено правило автоматического закрытия',
+	'msgautocloseruleinsert'       => 'Правило автоматическо закрытия "%s" было успешно добавлено в базу данных.',
+	'titleautocloseruleupdate'     => 'Применено правило автоматического закрытия',
+	'msgautocloseruleupdate'       => 'Правило автоматического закрытия "%s" было успешно применено.',
 
-	'titlenocriteriaadded' => 'No criteria specified',
-	'msgnocriteriaadded' => 'You need to specify at least one criteria to create an auto close rule (otherwise, the helpdesk won\'t know which tickets to auto close).',
+	'titlenocriteriaadded'         => 'Критерии для закрытия заявки не были созданы',
+	'msgnocriteriaadded'           => 'Необходимо добавить хотя бы один критерий для создания/редактирования правила автоматического закрытия.',
 
 	/**
 	 * ---------------------------------------------
 	 * Rule Criterias
 	 * ---------------------------------------------
 	 */
-	'notapplicable' => '-- NA --',
-	'articketstatusid' => 'Status',
-	'desc_articketstatusid' => '',
-	'arpriorityid' => 'Priority',
-	'desc_arpriorityid' => '',
-	'ardepartmentid' => 'Department',
-	'desc_ardepartmentid' => '',
-	'arownerstaffid' => 'Owner',
-	'desc_arownerstaffid' => '',
-	'aremailqueueid' => 'Email queue',
-	'arusergroupid' => 'User group',
-	'desc_arusergroupid' => '',
-	'desc_aremailqueueid' => '',
-	'arflagtype' => 'Flag',
-	'desc_arflagtype' => '',
-	'arbayescategoryid' => 'Bayesian category',
-	'desc_arbayescategoryid' => 'Tickets that have been matched to a specific Bayesian category.',
-	'arcreator' => 'Creator',
-	'desc_arcreator' => '',
-	'creatorstaff' => 'Staff',
-	'creatorclient' => 'User',
-	'arunassigned' => '-- Unassigned --',
-	'artemplategroupid' => 'Template group',
-	'desc_artemplategroupid' => '',
-	'artickettypeid' => 'Type',
-	'desc_rtickettypeid' => '',
+	'notapplicable'                => '-- Нет данных --',
+	'articketstatusid'             => 'Статус заявки',
+	'desc_articketstatusid'        => '',
+	'arpriorityid'                 => 'Приоритет заявки',
+	'desc_arpriorityid'            => '',
+	'ardepartmentid'               => 'Департамент',
+	'desc_ardepartmentid'          => '',
+	'arownerstaffid'               => 'Владелец заявки',
+	'desc_arownerstaffid'          => '',
+	'aremailqueueid'               => 'Почтовая очередь',
+	'arusergroupid'                => 'Группа пользователей',
+	'desc_arusergroupid'           => '',
+	'desc_aremailqueueid'          => '',
+	'arflagtype'                   => 'Вид флага',
+	'desc_arflagtype'              => '',
+	'arbayescategoryid'            => 'Категория по Байесу',
+	'desc_arbayescategoryid'       => 'Заявки, которые совпали с определенной категорией по Байесу.',
+	'arcreator'                    => 'Создатель',
+	'desc_arcreator'               => '',
+	'creatorstaff'                 => 'Персонал',
+	'creatorclient'                => 'Пользователь',
+	'arunassigned'                 => '-- Неназначенный --',
+	'artemplategroupid'            => 'Группа шаблонов',
+	'desc_artemplategroupid'       => '',
+	'artickettypeid'               => 'Вид заявки',
+	'desc_rtickettypeid'           => '',
 );

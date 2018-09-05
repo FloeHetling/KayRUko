@@ -5,34 +5,34 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
-$__LANG = array (
-	'managefilters' => 'Filters',
-	'insertfilter' => 'Insert Filter',
-	'lastused' => 'Last used',
-	'filtercreator' => 'Creator',
-	'filtertitle' => 'Filter title',
-	'desc_filtertitle' => 'For example, <em>My open tickets</em>.',
-	'insertcriteria' => 'Insert Criteria',
-	'reststaffgroupall' => '-- All Staff Teams --',
-	'restrictstaffgroupfil' => 'Restrict to specific staff team',
-	'desc_restrictstaffgroupfil' => 'Further restrict the availability of this filter to a team by specifying one here.',
-	'filtertype' => 'Filter availability',
-	'desc_filtertype' => '<strong>Public</strong> Filters will be available to all staff in the helpdesk (unless a specific team is selected below).<br /><strong>Private</strong> Filters are available only to you.',
-	'titlefilterinsert' => 'Ticket filter (%s) created',
-	'msgfilterinsert' => 'The ticket filter (%s) was created successfully.',
-	'titlefilterupdate' => 'Ticket filter (%s) updated',
-	'msgfilterupdate' => 'The ticket filter (%s) was updated successfully.',
-	'filternotused' => '-- Not Used --',
-	'editfilter' => 'Edit Filter',
+$__LANG = array(
+	'managefilters'              => 'Фильтры',
+	'insertfilter'               => 'Добавить фильтр',
+	'lastused'                   => 'Последнее использование',
+	'filtercreator'              => 'Создатель',
+	'filtertitle'                => 'Название фильтра',
+	'desc_filtertitle'           => 'Например, <em>Мои открытые заявки</em>.',
+	'insertcriteria'             => 'Добавить критерий',
+	'reststaffgroupall'          => '-- Все команды сотрудников --',
+	'restrictstaffgroupfil'      => 'Ограничить доступ некоторым командам сотрудников',
+	'desc_restrictstaffgroupfil' => 'Необходимо указать здесь команду, для которой в дальнейшем Вы хотите ограничить возможность использовать этот фильтр.',
+	'filtertype'                 => 'Видимость фильтра',
+	'desc_filtertype'            => '<strong>Публичная</strong> Фильтры доступны всем сотрудникам службы поддержки (если ниже не указана определенная команда).<br /><strong>Приватная</strong> Фильтры доступны только Вам.',
+	'titlefilterinsert'          => 'Создан фильтр для заявок (%s)',
+	'msgfilterinsert'            => 'Фильтр для заявок (%s) успешно создан.',
+	'titlefilterupdate'          => 'Обновлен фильтр для заявок (%s)',
+	'msgfilterupdate'            => 'Фильтр для заявок (%s) успешно обновлен.',
+	'filternotused'              => '-- Не используется --',
+	'editfilter'                 => 'Редактировать фильтр',
 );
 ?>

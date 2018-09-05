@@ -5,12 +5,12 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
@@ -18,53 +18,53 @@
 $__LANG = array (
 
 	// Bayesian
-	'titlebayesnodel' => 'Bayesian categories could not be deleted (%d)',
-	'msgbayesnodel' => 'The following Bayesian master categories could not be deleted:',
-	'check' => 'Check',
-	'bayesian' => 'Bayesian',
-	'desc_bayesian' => '',
-	'categories' => 'Categories',
-	'insertcategory' => 'Insert Category',
-	'editcategory' => 'Edit Category',
-	'diagnostics' => 'Diagnostics',
-	'sla' => 'SLA',
-	'tabtraining' => 'Training',
-	'tabprobability' => 'Probability',
-	'bayescategory' => 'Bayesian category',
-	'desc_bayescategory' => 'Select the Bayesian category to train.',
-	'bayesactiontype' => 'What to do',
-	'desc_bayesactiontype' => '<strong>Train</strong> The Bayesian engine will be trained to categorize the text entered below as this category.<br /><strong>Untrain</strong> The Bayesian engine will be trained not to categorize the text entered below as this category.',
-	'bayestext' => 'Text',
-	'bayestrain' => 'Train',
-	'bayesuntrain' => 'Untrain',
-	'titlebtrain' => 'Training complete',
-	'msgbtrain' => 'The Bayesian engine was trained successfully.',
-	'titlebuntrain' => 'Training complete',
-	'msgbuntrain' =>'The Bayesian engine was trained successfully.',
-	'word' => 'Word',
-	'combinedprobability' => 'Combined Probability',
-	'tabsettings' => 'Settings',
-	'bayescattitle' => 'Category name',
-	'desc_bayescattitle' => 'For example: <em>Sales related queries</em> or <em>Spanish queries</em>.',
-	'categoryweight' => 'Category weight',
-	'desc_categoryweight' => 'The probability of a word belonging to a particular category is multiplied by category weight to achieve the final probability.',
-	'tabgeneral' => 'General',
-	'titlebayesdel' => 'Bayesian categories deleted (%d)',
-	'msgbayesdel' => 'The following Bayesian categories were deleted:',
-	'ismaster' => 'Master category',
-	'wordcount' => 'Word count',
-	'winbayeseditcategory' => 'Edit Bayesian Category: %s',
-	'titlebayesinsert' => 'Bayesian category %s created',
-	'msgbayesinsert' => 'The Bayesian category %s was created successfully.',
-	'titlebayesupdate' => 'Bayesian category %s updated',
-	'msgbayesupdate' => 'The Bayesian category %s was updated successfully.',
-	'settings' => 'Settings',
-	'desc_settings' => '',
+	'titlebayesnodel'           => 'Не удалось удалить категории по Байесу (%d)',
+	'msgbayesnodel'             => 'Невозможно удалить следующие основные категории по Байесу:',
+	'check'                     => 'Проверить',
+	'bayesian'                  => 'Прогнозирование по Байесу',
+	'desc_bayesian'             => '',
+	'categories'                => 'Категории',
+	'insertcategory'            => 'Добавить категорию',
+	'editcategory'              => 'Редактировать категорию',
+	'diagnostics'               => 'Диагностика',
+	'sla'                       => 'SLA',
+	'tabtraining'               => 'Настройка',
+	'tabprobability'            => 'Вероятность',
+	'bayescategory'             => 'Категория по Байесу',
+	'desc_bayescategory'        => 'Выберите категорию по Байесу, которую нужно настроить.',
+	'bayesactiontype'           => 'Что делать',
+	'desc_bayesactiontype'      => '<strong>Настроить</strong> Механизм прогнозирования по Байесу будет настроен относить нижеуказанный текст к этой категории.<br /><strong>Настроить в обратном порядке</strong> Механизм Байеса будет настроен не относить нижеуказанный текст к этой категории.',
+	'bayestext'                 => 'Текст',
+	'bayestrain'                => 'Настроить',
+	'bayesuntrain'              => 'Настроить в обратном порядке',
+	'titlebtrain'               => 'Настройка завершена',
+	'msgbtrain'                 => 'Механизм прогнозирования по Байесу успешно настроен.',
+	'titlebuntrain'             => 'Настройка завершена',
+	'msgbuntrain'               => 'Механизм прогнозирования по Байесу успешно настроен.',
+	'word'                      => 'Слово',
+	'combinedprobability'       => 'Комбинированная вероятность',
+	'tabsettings'               => 'Настройки',
+	'bayescattitle'             => 'Название категории',
+	'desc_bayescattitle'        => 'Например: <em>Запросы по продажам</em> или <em>Запросы из Испании</em>.',
+	'categoryweight'            => 'Важность категории',
+	'desc_categoryweight'       => 'Вероятность слова, которое относится к определенной категории, увеличивается важностью категории для достижения финальной вероятности.',
+	'tabgeneral'                => 'Общие',
+	'titlebayesdel'             => 'Удалены категории по Байесу (%d)',
+	'msgbayesdel'               => 'Следующие категории по Байесу удалены:',
+	'ismaster'                  => 'Основная категория',
+	'wordcount'                 => 'Количество слов',
+	'winbayeseditcategory'      => 'Редактировать категорию по Байесу: %s',
+	'titlebayesinsert'          => 'Создана категория по Байесу %s',
+	'msgbayesinsert'            => 'Категория по Байесу %s успешно создана.',
+	'titlebayesupdate'          => 'Обновлена категория по Байесу %s',
+	'msgbayesupdate'            => 'Категория по Байесу %s успешно обновлена.',
+	'settings'                  => 'Настройки',
+	'desc_settings'             => '',
 
 	// ?
-	'tickets' => 'Tickets',
-	'manage' => 'Manage',
-	
+	'tickets'                   => 'Заявки',
+	'manage'                    => 'Управление',
+
 	// Potentialy unused phrases in tickets.php
 	'invalidbayescat' => 'Invalid Bayesian Category',
 	'titlebayesmasterdel' => 'Unable to delete category',

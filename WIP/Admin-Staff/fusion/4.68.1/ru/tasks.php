@@ -5,61 +5,61 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	no data 
+ * @license		no data 
+ * @link		https://github.com/FloeHetling/KayRUko
  *
  * ###############################################
  */
 
 $__LANG = array (
 	// Scheduled tasks
-	'scheduledtasks' => 'Scheduled Tasks',
-	'desc_scheduledtasks' => 'These tasks will run at the intervals shown below to perform various helpdesk operations. If you are a Download customer and your helpdesk is infrequently used, it is recommended that you set up a server-side cron to trigger the scheduled tasks system. <a href="http://www.dereferer.com/?http://wiki.kayako.com/display/DOCS/Scheduled+tasks" target="_blank">Find out more about scheduled tasks</a>.',
-	'tasklist' => 'Task List',
-	'nextrun' => 'Next Run',
-	'lastrun' => 'Last Run',
-	'runsevery' => 'Runs Every',
-	'xminute' => '%s minutes',
-	'xhour' => '%s hours',
-	'xday' => '%s days',
-	'runnow' => 'Run',
-	'scheduledexecute' => 'The task (%s) will be run next when the scheduled task system is triggered',
-	'taskdisabled' => 'Task %s disabled',
-	'taskenabled' => 'Task %s enabled ',
-	'tasklog' => 'Task Log',
-	'securl' => 'URL: ',
-	'tasklogs' => 'Task Logs',
-	'executiontime' => 'Execution Time',
-	'cronlogdeleteconfirm' => 'Task log entry (%s) deleted',
-	'execute' => 'Execute',
-	'titledisablecron' => 'Scheduled tasks disabled (%s)',
-	'msgdisablecron' => 'The following scheduled tasks have been disabled and will no longer be run:',
-	'titleenablecron' => 'Scheduled tasks enabled (%d)',
-	'msgenablecron' => 'The following scheduled tasks have been enabled:',
-	'titleexecutecron' => '%d scheduled tasks have been run',
-	'msgexecutecron' => 'The following scheduled tasks have been executed:',
+	'scheduledtasks'       => 'Запланированные задания',
+	'desc_scheduledtasks'  => 'Эти задания будут выполняться через указанные ниже интервалы времени для выполнения определенных действий службы поддержки. В случае, если Вы загружаемый клиент, и редко используете Вашу службу поддежки, рекомендуется  установить серверный cron для активации системы запланированных действий. <a href="http://wiki.kayako.com/display/DOCS/Scheduled+tasks" target="_blank">Здесь вы можете найти дополнительную информацию о запланированных действиях.</a>.',
+	'tasklist'             => 'Список заданий',
+	'nextrun'              => 'Следующее выполнение',
+	'lastrun'              => 'Последующее выполнение',
+	'runsevery'            => 'Выполняется каждые',
+	'xminute'              => '%s минут',
+	'xhour'                => '%s часов',
+	'xday'                 => '%s дней',
+	'runnow'               => 'Выполнить',
+	'scheduledexecute'     => 'Задание (%s) будет выполнено, как только система запланированных заданий будет запущена.',
+	'taskdisabled'         => 'Задание %s деактивировано',
+	'taskenabled'          => 'Задание %s активировано ',
+	'tasklog'              => 'Журнал заданий',
+	'securl'               => 'URL: ',
+	'tasklogs'             => 'Записи журнала заданий',
+	'executiontime'        => 'Время выполнения',
+	'cronlogdeleteconfirm' => 'Запись о задании (%s) удалена из журнала',
+	'execute'              => 'Выполнить',
+	'titledisablecron'     => 'Запланированные задания деактивированы (%s)',
+	'msgdisablecron'       => 'Следующие запланированные задания были деактивированы и больше не будут выполняться:',
+	'titleenablecron'      => 'Запланированные задания активированы (%d)',
+	'msgenablecron'        => 'Следующие  были активированы:',
+	'titleexecutecron'     => 'Выполнено %d запланированных заданий',
+	'msgexecutecron'       => 'Выполнены следующие запланированные задания:',
 
 	// ======= TASK ENTRIES =======
-	'cronhourlycleanup' => 'Hourly system cleanup',
-	'crondailycleanup' => 'Daily system cleanup',
-	'cronsearchengine' => 'Search engine re-indexing',
-	'tickets' => 'Ticket tasks (SLA escalations, cleanup, etc)',
-	'parser' => 'Fetch emails (POP3/IMAP)',
-	'parsercleanup' => 'Email parser cleanup',
-	'livechat' => 'Live chat cleanup',
-	'newssync' => 'Synchronize news RSS feeds',
-	'ticketautoclose' => 'Auto close tickets',
-	'defaultcoreminute' => 'Core minute sync',
-	'defaultcorehourly' => 'Core hourly sync',
-	'defaultcoredaily' => 'Core daily sync',
-	'defaultcoreweekly' => 'Core weekly sync',
-	'defaultcoremonthly' => 'Core monthly sync',
-	'reportemailing' => 'Run scheduled reports',
-	'ticketfollowup' => 'Run ticket follow-up tasks',
+	'cronhourlycleanup'    => 'Ежечасная очистка системы',
+	'crondailycleanup'     => 'Ежедневная очистка системы',
+	'cronsearchengine'     => 'Переиндексация поискового механизма',
+	'tickets'              => 'Задания по заявкам (SLA эскалации, очистка и т.д.)',
+	'parser'               => 'Сделать выборку email (POP3/IMAP)',
+	'parsercleanup'        => 'Очистка парсера почты',
+	'livechat'             => 'Очистка онлайн чата',
+	'newssync'             => 'Синхронизировать RSS каналы новостей',
+	'ticketautoclose'      => 'Автоматически закрывать заявки',
+	'defaultcoreminute'    => 'Ежеминутная синхронизация ядра',
+	'defaultcorehourly'    => 'Ежечасная синхронизация ядра',
+	'defaultcoredaily'     => 'Ежедневная синхронизация ядра',
+	'defaultcoreweekly'    => 'Еженедельная синхронизация ядра',
+	'defaultcoremonthly'   => 'Ежемесячная синхронизация ядра',
+	'reportemailing'       => 'Выполнить запланированные отчеты',
+	'ticketfollowup'       => 'Выполнить запланированные задания по заявке',
 );
 
 ?>
