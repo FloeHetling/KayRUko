@@ -4,7 +4,7 @@
  *
  * SWIFT Framework
  * _______________________________________________
- *
+ *untranslated
  * @author		Varun Shoor
  *
  * @package		SWIFT

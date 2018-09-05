@@ -5,54 +5,54 @@
  * SWIFT Framework
  * _______________________________________________
  *
- * @author		Varun Shoor
+ * @author		Floe Hetling
  *
  * @package		SWIFT
- * @copyright	Copyright (c) 2001-2012, Kayako
- * @license		http://www.kayako.com/license
- * @link		http://www.kayako.com
+ * @copyright	none
+ * @license		none
+ * @link		none
  *
  * ###############################################
  */
 
 $__LANG = array(
-	'apps' => 'Apps',
-	'manage' => 'Manage',
-	'tabapps' => 'Apps',
-	'upgradeall' => 'Upgrade All',
-	'appdetails' => 'App Details',
-	'versioninfo' => 'Version Information',
-	'appinstalled' => 'INSTALLED',
-	'appstatus' => 'Status',
-	'appnotinstalled' => 'NOT INSTALLED',
-	'appupgraderequired' => 'UPGRADE REQUIRED',
-	'appdbversion' => 'Installed Version',
-	'applatestversion' => 'Latest Version',
-	'appauthor' => '<strong>Author:</strong> %s',
-	'viewapp' => 'View App',
-	'tabgeneral' => 'General',
-	'appinstall' => 'Install',
-	'appuninstall' => 'Uninstall',
-	'apprtitle' => 'App Title',
-	'apprdescription' => 'Description',
-	'apprauthor' => 'Author',
-	'upgrade' => 'Upgrade',
-	'forceupgrade' => 'Force Upgrade',
-	'titleuninstallsuccess' => 'App uninstalled',
-	'msguninstallsuccess' => '%s was uninstalled successfully.',
-	'titleuninstallfailure' => 'There was a problem',
-	'msguninstallfailure' => '%s could not be uninstalled.',
-	'titleinstallsuccess' => 'App installed',
-	'msginstallsuccess' =>  '%s was installed successfully.',
-	'titleinstallfailure' => 'There was a problem',
-	'msginstallfailure' => '%s could not be installed.',
-	'titleupgradesuccess' => 'App upgraded',
-	'msgupgradesuccess' => '%s was upgraded successfully.',
-	'titleupgradefailure' => 'There was a problem',
-	'msgupgradefailure' => '%s could not be upgraded.',
-	'titleupgradeallsuccess' => 'Apps upgraded',
-	'msgupgradeallsuccess' => 'The following apps have been upgraded:<br />%s',
-	'titleupgradeallfailure' => 'There was a problem',
-	'msgupgradeallfailure' => 'The following apps could not be upgraded:<br />%s',
+	'apps' => 'Приложения',
+	'manage' => 'Изменить',
+	'tabapps' => 'Приложения',
+	'upgradeall' => 'Обновить все',
+	'appdetails' => 'Подробно',
+	'versioninfo' => 'Версия',
+	'appinstalled' => 'УСТАНОВЛЕНО',
+	'appstatus' => 'Статус',
+	'appnotinstalled' => 'НЕ УСТАНОВЛЕНО',
+	'appupgraderequired' => 'ЕСТЬ ОБНОВЛЕНИЕ',
+	'appdbversion' => 'Текущая версия',
+	'applatestversion' => 'На репозитории',
+	'appauthor' => '<strong>Автор:</strong> %s',
+	'viewapp' => 'Просмотр',
+	'tabgeneral' => 'Общее',
+	'appinstall' => 'Установить',
+	'appuninstall' => 'Удалить',
+	'apprtitle' => 'Заголовок',
+	'apprdescription' => 'Описание',
+	'apprauthor' => 'Автор',
+	'upgrade' => 'Обновить',
+	'forceupgrade' => 'Принудительное обновление',
+	'titleuninstallsuccess' => 'Приложение удалено',
+	'msguninstallsuccess' => '%s было успешно удалено.',
+	'titleuninstallfailure' => 'Возникла проблема',
+	'msguninstallfailure' => '%s не может быть удалено.',
+	'titleinstallsuccess' => 'Приложение установлено',
+	'msginstallsuccess' =>  '%s было успешно установлено.',
+	'titleinstallfailure' => 'Возникла проблема',
+	'msginstallfailure' => '%s не может быть установлено.',
+	'titleupgradesuccess' => 'Приложение обновлено',
+	'msgupgradesuccess' => '%s было успешно обновлено.',
+	'titleupgradefailure' => 'Возникла проблема',
+	'msgupgradefailure' => '%s не может быть обновлено.',
+	'titleupgradeallsuccess' => 'Приложения обновлены',
+	'msgupgradeallsuccess' => 'Следующие приложения были успешно обновлены:<br />%s',
+	'titleupgradeallfailure' => 'Возникли проблемы при обновлении',
+	'msgupgradeallfailure' => 'Следующие приложения не могут быть обновлены:<br />%s',
 );
 ?>
