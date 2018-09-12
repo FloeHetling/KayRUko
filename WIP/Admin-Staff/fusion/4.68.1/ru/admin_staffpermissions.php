@@ -60,8 +60,8 @@ $__LANG = array(
 	'parserbreaklines'                   => 'Разделитель новой строки',
 	'parserbans'                         => 'Запреты',
 	'parsercatchall'                     => 'Общие правила',
-	'parserblockages'                    => 'Циклические запреты',
-	'parserlooprule'                     => 'Циклические правила',
+	'parserblockages'                    => 'Журнал фильтра циклов',
+	'parserlooprule'                     => 'Правила фильтра циклов',
 
 	// Staff/Knowledgebase
 	'mod_knowledgebase'                  => 'База знаний',
@@ -152,8 +152,8 @@ $__LANG = array(
 	'admin_tcanrunmaintenance'           => 'Произвести обслуживание заявки (перестроить индексы поиска)',
 
 	// Staff/Troubleshooter
-	'mod_troubleshooter'                 => 'Устранение неполадок',
-	'tr_entab'                           => 'Может просматривать закладку Устранение неполадок',
+	'mod_troubleshooter'                 => 'Пошаговые руководства',
+	'tr_entab'                           => 'Может просматривать закладку Пошаговые руководства',
 	'staff_trcaninsertpublishedsteps'    => 'Может публиковать шаги',
 	'staff_troubleshootersteps'          => 'Шаги',
 	'staff_troubleshootercategories'     => 'Категории',

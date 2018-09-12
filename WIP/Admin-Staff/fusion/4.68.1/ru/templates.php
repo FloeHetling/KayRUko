@@ -268,7 +268,7 @@ $__LANG = array (
 	// Template categories
 	'template_general'              => 'Общие',
 	'template_chat'                 => 'Онлайн поддержка',
-	'template_troubleshooter'       => 'Устранение неполадок',
+	'template_troubleshooter'       => 'Пошаговые руководства',
 	'template_news'                 => 'Новости',
 	'template_knowledgebase'        => 'База знаний',
 	'template_tickets'              => 'Заявки',

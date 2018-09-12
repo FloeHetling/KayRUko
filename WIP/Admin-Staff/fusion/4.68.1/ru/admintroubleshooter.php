@@ -16,7 +16,7 @@
  */
 
 $__LANG = array(
-	'troubleshooter'  => 'Устранение неполадок',
+	'troubleshooter'  => 'Пошаговые руководства',
 	'trsettings'      => 'Настройки',
 	'desc_trsettings' => '',
 	'tabsettings'     => 'Настройки',

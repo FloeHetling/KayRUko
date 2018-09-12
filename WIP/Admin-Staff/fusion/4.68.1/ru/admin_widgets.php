@@ -71,7 +71,7 @@ $__LANG = array(
 	'widgetnews'                => 'Новости',
 	'widgetsubmitticket'        => 'Отправить заявку',
 	'widgetviewtickets'         => 'Просмотреть заявки',
-	'widgettroubleshooter'      => 'Устранение неполадок',
+	'widgettroubleshooter'      => 'Пошаговые руководства',
 );
 
 ?>

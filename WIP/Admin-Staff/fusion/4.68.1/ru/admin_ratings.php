@@ -78,7 +78,7 @@ $__LANG = array(
 
 	// Potentialy unused phrases in admin_ratings.php
 	'ratingknowledgebase'         => 'База знаний',
-	'ratingtroubleshooter'        => 'Устранение неполадок',
+	'ratingtroubleshooter'        => 'Пошаговые руководства',
 	'ratingnews'                  => 'Новости',
 );
 ?>
